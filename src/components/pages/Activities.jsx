@@ -38,7 +38,7 @@ function Activities() {
         number: "+254773287540",
         message: "Hi Goombay 😊, Im interested in Golf 🏌️",
         background: golf,
-        description: "The Leisure Beach and Golf Resort has one of the best International 18 hole golf courses in East Africa. In fact it is the only golf course on the south coast of Kenya. The club annually hosts in October “Diani Beach Masters”. Here both professionals and amateurs can meet and play over a 2 day period. This is definitely one of the highlights in the East African golfing calendar        ",
+        description: "With breathtaking views of the Atlantic Ocean and Nassau Harbor, our championship course is always in full swing. Masterfully designed by Tom Weiskopf, the Ocean Club Golf Course offers Atlantis guests all the makings of a perfect round. This 18-hole par 72 course stretches over 7,100 yards on Paradise Island Oceanside's peninsula, where crosswinds challenge even the most experienced players.",
     },
     {
         name: "Camel Rides",
