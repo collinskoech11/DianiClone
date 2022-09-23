@@ -3,8 +3,8 @@ import Weather from "./Weather"
 import "./css/weather.css"
 import {weather} from "./icons"
 
-const lattitude =  4.2798
-const longitude = 39.5947
+const lattitude =  25.0343
+const longitude = 77.3963
 const WEATHER_API_KEY="0bff0698379b96eaf19daa753dfa7f0d"
 const URL_MAIN = 'https://api.openweathermap.org/data/2.5/weather'
 const UNITS = 'metric';

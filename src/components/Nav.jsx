@@ -41,7 +41,7 @@ function Nav() {
   return (
     <div className="nav-main">
       <div className="Logo-container">
-        <a href="/"><img src={logo} alt="Dianiapp" /></a>
+        <a href="/" style={{backgroundColor:'transparent'}}><h3 style={{marginTop: '25px', color:'#fff',backgroundColor:'transparent'}}>GoomBay</h3></a>
       </div>
       <div className="Links-container">
         <a href="/">

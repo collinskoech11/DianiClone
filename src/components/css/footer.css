@@ -1,6 +1,6 @@
 * p {
-  color: #fff;
-  background: #241845;
+  color: #05BFAB;
+  background: transparent;
   font-size: 0.8em;
   font-weight: 1px;
 padding-bottom:10px;
@@ -10,13 +10,13 @@ padding-bottom:10px;
   flex-direction: row;
   justify-content: space-around;
   height: auto;
-  background: #020825;
+  background: #05293C;;
   width: 100vw;
   padding-bottom: 50px;
   margin-top: 20px;
 }
 .foot-container * {
-  background-color: #020825;
+  background: #05293C;
 }
 .foot-container p{
   padding-bottom:20px;
@@ -25,7 +25,7 @@ padding-bottom:10px;
   display: flex;
   flex-direction: row;
   height: 100px;
-  background-color: #020825;
+  background: #05293C;
   overflow-x: scroll;
   width: 100vw;
 }
