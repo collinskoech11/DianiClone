@@ -1,12 +1,13 @@
 * {
   text-align: center;
   align-items: center;
-  color:  #05BFAB;
-  ;
+  color:  #fff;
   margin: 0;
   font-family:Arial;
 }
-
+* p{
+  color:#fff;
+}
 body {
   background: #05293C;
   overflow-x: hidden;
@@ -47,14 +48,14 @@ h4 {
 }
 
 .Tab-item:hover {
-  background: linear-gradient(to right, #241845, #000);
+  background: #021923;
   transition: 0.2s ease-in-out;
   color: #020825;
   cursor: pointer;
   font-weight: 600;
 }
 .Tab-item-wellness:hover {
-  background: linear-gradient(to right, #241845, #000);
+  background:#021923;
   transition: 0.2s ease-in-out;
   color: #fff;
   cursor: pointer;
@@ -68,7 +69,12 @@ h4 {
   background: #05293C;
   color:#05BFAB;
 }
-
+.Tab-item *{
+  color: #05BFAB;
+}
+.Tab-item-wellness *{
+  color: #05BFAB;
+}
 .Tab-item {
   width: 100%;
   height: 45px;

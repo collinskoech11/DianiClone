@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import "./css/Nav.css";
-import logo from "./assets/logo.png";
+import logo from "./assets/Goombay.png";
 import toast from "react-hot-toast";
 import {addHome} from "./icons"
 import WeatherIcon from "../components/WeatherIcon"
@@ -41,7 +41,7 @@ function Nav() {
   return (
     <div className="nav-main">
       <div className="Logo-container">
-        <a href="/" style={{backgroundColor:'transparent'}}><h3 style={{marginTop: '25px', color:'#fff',backgroundColor:'transparent'}}>GoomBay</h3></a>
+        <a href="/"><img src={logo} alt="Goombay" /></a>
       </div>
       <div className="Links-container">
         <a href="/">

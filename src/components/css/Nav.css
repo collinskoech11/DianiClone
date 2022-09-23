@@ -38,7 +38,7 @@ a {
   font-size: 1em;
 }
 .Logo-container img {
-  background-color: #241845;
+  background-color: transparent;
 }
 .Logo-container {
   border-radius: 12px 12px 0px 0px;

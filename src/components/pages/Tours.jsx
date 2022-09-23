@@ -13,56 +13,56 @@ function Tours() {
   const data = [
     {
       name: "Transportation",
-      number: "+254115144146",
-      message: "Hi DianiApp 😊, I need Transportation 🚕",
+      number: "+254773287540",
+      message: "Hi Goombay 😊, I need Transportation 🚕",
       className: "whatsapp",
       image: Transport,
       desc: "image desc",
     },
     {
       name: "Foreign Exchange",
-      number: "+254115144146",
-      message: "Hi DianiApp 😊, Interested in Foreign Exchange 💰",
+      number: "+254773287540",
+      message: "Hi Goombay 😊, Interested in Foreign Exchange 💰",
       className: "whatsapp",
       image: ForeignExchange,
       desc: "image desc",
     },
     {
       name: "Food",
-      number: "+254115144146",
-      message: "Hi DianiApp 😊, I want to order some food 🍝",
+      number: "+254773287540",
+      message: "Hi Goombay 😊, I want to order some food 🍝",
       className: "whatsapp",
       image: food,
       desc: "image desc",
     },
     {
       name: "Drinks",
-      number: "+254115144146",
-      message: "Hi DianiApp 😊, I want to order some Drinks 🥂",
+      number: "+254773287540",
+      message: "Hi Goombay 😊, I want to order some Drinks 🥂",
       className: "whatsapp",
       image: Beer,
       desc: "image desc",
     },
     {
       name: "Activity Guide",
-      number: "+254115144146",
-      message: "Hi DianiApp 😊,I need an Activity Guide 📍",
+      number: "+254773287540",
+      message: "Hi Goombay 😊,I need an Activity Guide 📍",
       className: "whatsapp",
       image: Activity,
       desc: "image desc",
     },
     {
       name: "Errands",
-      number: "+254115144146",
-      message: "Hi DianiApp 😊, I need help with my Errands 🛒",
+      number: "+254773287540",
+      message: "Hi Goombay 😊, I need help with my Errands 🛒",
       className: "whatsapp",
       image: bike,
       desc: "image desc",
     },
     {
       name: "Health",
-      number: "+254115144146",
-      message: "Hi DianiApp 😊, I need Health services 💊",
+      number: "+254773287540",
+      message: "Hi Goombay 😊, I need Health services 💊",
       className: "whatsapp",
       image: Reservation,
       desc: "image desc",
@@ -79,7 +79,7 @@ function Tours() {
             message={item.message}
             className={item.className}
           >
-            <h4 className="Tab-item">
+            <h4 className="Tab-item" >
               {" "}
               <img src={item.image} alt={item.desc} /> {item.name}
             </h4>

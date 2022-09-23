@@ -13,7 +13,7 @@ function HowItWorks() {
         },
         {
             icon: two,
-            text: "Click on ‘Continue to chat’ and amessage will be sent via WhatsApp to The Diani App"
+            text: "Click on ‘Continue to chat’ and a message will be sent via WhatsApp to Goombay"
         },
         {
             icon: three,
@@ -70,9 +70,6 @@ function HowItWorks() {
         <div>
             <h2>Payment Platforms</h2>
             <div className="payment-flex">
-                <div className="payment-item">
-                    {mpesa}<h4> Mpesa</h4>
-                </div>
                 <div className="payment-item">
                     {cryptobtn}<h4> Crypto</h4>
                 </div>

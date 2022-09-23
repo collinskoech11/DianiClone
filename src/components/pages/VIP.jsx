@@ -11,19 +11,19 @@ function VIP() {
   const data = [
     {
       name: "SKYDIVING",
-      number: "+254115144146",
+      number: "+254773287540",
       background: skydiving,
-      message: "Hi DianiApp 😊, I want to go Sky Diving 🪂",
+      message: "Hi Goombay 😊, I want to go Sky Diving 🪂",
       description:
-        "Diani beach offers some of the finest scenery in the world and skydiving onto the beach has become a large attraction amongst tourists who want to see the landscape from a birds-eye view at 12,000 ft.  ",
+        "Enjoy some of the finest sceneries in the world and skydive onto the beach. This is a huge tourist attraction for tourists who want to see the landscape from a bird’s-eye view at 12, 000 ft.",
     },
     {
       name: "JET SKIING",
-      number: "+254115144146",
-      message: "Hi DianiApp 😊, Im interested in Jet Skiing 🚤",
+      number: "+254773287540",
+      message: "Hi Goombay 😊, Im interested in Jet Skiing 🚤",
       background: skiing,
       description:
-        "Diani Beach is one of the greatest water sports destinations in East Africa.Experience the beautiful view of Diani from the open sea and get to know other fascinating parts of the coast.",
+        "Experience the beautiful view from the open sea and get to know other fascinating parts of the coast.",
     },
   ];
 
@@ -42,7 +42,7 @@ function VIP() {
                 <div className="act-full">
                   <div className="Text">
                     <h2 style={{ color: "#fff" }}>{item.name}</h2>
-                    <p>{item.description}</p>
+                    <p style={{color:'#fff'}}>{item.description}</p>
                   </div>
                 </div>
               </div>

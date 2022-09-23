@@ -5,7 +5,7 @@ function Type() {
   return (
     <>
     
-    <h2 style={{ marginTop:'70px',fontSize:'30px'}}>
+    <h2 style={{ marginTop:'70px',fontSize:'30px', color:'#fff'}}>
       <TypeAnimation
         sequence={[
           'Deliveries on Tap', // Types 'One'
@@ -19,7 +19,7 @@ function Type() {
         wrapper="div"
         cursor={true}
         repeat={Infinity}
-         style={{ lineHeight: '1.5' }}
+         style={{ lineHeight: '1.5', color:'#fff' }}
       />
       </h2>
       <h3 style={{ color:'#EE8B52', fontSize:'18px', fontWeight:'bold'}}>One Tap, One App, 24/7.</h3>

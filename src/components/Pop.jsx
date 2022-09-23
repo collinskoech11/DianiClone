@@ -8,7 +8,7 @@ const Pop = ({ setIsOpen }) => {
     <div className="main-pop">
       <div className="popup-main">
         <div className="Logo-container">
-          <img src={logo} alt="Dianiapp" />
+          <img src={logo} alt="Goombay" />
         </div>
 
         <h4 className="spec"> Call/text:</h4>
