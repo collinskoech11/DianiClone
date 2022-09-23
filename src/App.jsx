@@ -45,13 +45,13 @@ function App() {
       <MobileNav />
       <BotIcon/>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Wellness" element={<Wellness />} />
-        <Route path="/NightLife" element={<NightLife />} />
-        <Route path="/Tours" element={<Tours />} />
-        <Route path="/VIP" element={<VIP />} />
-        <Route path="/Activities" element={<Activities />} />
-        <Route path="/how-it-works" element={<HowItWorks />} />
+        <Route path="/" exact element={<Home/>} />
+        <Route path="/Wellness" element={<Wellness/>} />
+        <Route path="/NightLife" element={<NightLife/>} />
+        <Route path="/Tours" element={<Tours/>} />
+        <Route path="/VIP" element={<VIP/>} />
+        <Route path="/Activities" element={<Activities/>} />
+        <Route path="/how-it-works" element={<HowItWorks/>} />
       </Routes>
       <MobileFooter />
 
