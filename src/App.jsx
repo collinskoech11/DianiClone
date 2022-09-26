@@ -26,14 +26,14 @@ function App() {
         position="top-center"
         reverseOrder={false}
         gutter={8}
-        containerClassName=""
-        containerStyle={{}}
+        // containerClassName=""
+        // containerStyle={{}}
         toastOptions={{
           // Define default options
-          className: "",
-          duration: 5000,
+          // className: "",
+          duration: 15000,
           style: {
-            background: "#000",
+            background: "#241845",
             color: "#fff",
             border: "none",
           },
