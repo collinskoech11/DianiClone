@@ -7,7 +7,7 @@ const lattitude =  25.0343
 const longitude = 77.3963
 const WEATHER_API_KEY="0bff0698379b96eaf19daa753dfa7f0d"
 const URL_MAIN = 'https://api.openweathermap.org/data/2.5/weather'
-const UNITS = 'metric';
+const UNITS = 'imperial';
 
 function WeatherIcon() {
   const [temperature, setTemperature] = useState()
@@ -33,7 +33,7 @@ function WeatherIcon() {
     <>
     <div onClick={set} className="weatherflex">
       <div className="weather">
-      {weather} {temperature}°C <img src={iconUrl}/>
+      {weather} {temperature}°F <img src={iconUrl}/>
       </div>
     </div>
     {isOpen && <Weather setIsOpen={setIsOpen}/>}
