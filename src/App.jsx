@@ -33,8 +33,9 @@ function App() {
           className: "",
           duration: 5000,
           style: {
-            background: "#363636",
+            background: "#000",
             color: "#fff",
+            border: "none",
           },
         }}
       />
