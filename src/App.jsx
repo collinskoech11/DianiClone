@@ -27,7 +27,7 @@ function App() {
         reverseOrder={false}
         gutter={8}
         // containerClassName=""
-        containerStyle={{backgroundColor: "#241845", color:"#fff", width:"100vw", height:"20vh", maxWidth:"400px", top:"40"}}
+        containerStyle={{color:"#000"}}
         toastOptions={{
           // Define default options
           // className: "",
