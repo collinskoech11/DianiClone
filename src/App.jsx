@@ -13,7 +13,7 @@ import Type from "./components/Type";
 import HowItWorks from "./components/pages/HowItWorks";
 import AddToHomeScreen from "@ideasio/add-to-homescreen-react";
 // import WeatherIcon from "./components/WeatherIcon";
-// import { Toaster } from "react-hot-toast";
+import { Toaster } from "react-hot-toast";
 import BotIcon from "./components/BotIcon"
 import "animate.css/animate.min.css";
 import {AnimationOnScroll} from "react-animation-on-scroll"
@@ -22,23 +22,23 @@ import {AnimationOnScroll} from "react-animation-on-scroll"
 function App() {
   return (
     <>
-      {/* <Toaster
+      <Toaster
         position="top-center"
         reverseOrder={false}
         gutter={8}
         // containerClassName=""
-        // containerStyle={{}}
+        containerStyle={{backgroundColor: "#241845", color:"#fff", width:"100vw", height:"20vh", maxWidth:"400px", top:"40"}}
         toastOptions={{
           // Define default options
           // className: "",
-          duration: 15000,
+          duration: 5000,
           style: {
-            backgroundColor: "#241845",
-            color: "#fff",
-            border: "none",
+            backgroundColor:"#000",
+            border: "1px solid #fff",
+            color: "#fff"
           },
         }}
-      /> */}
+      />
       <Nav />
       <AddToHomeScreen />
       <Type />
