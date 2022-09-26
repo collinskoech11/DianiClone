@@ -33,7 +33,7 @@ function App() {
           // className: "",
           duration: 15000,
           style: {
-            background: "#241845",
+            backgroundColor: "#241845",
             color: "#fff",
             border: "none",
           },
