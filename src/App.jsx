@@ -13,16 +13,22 @@ import Type from "./components/Type";
 import HowItWorks from "./components/pages/HowItWorks";
 import AddToHomeScreen from "@ideasio/add-to-homescreen-react";
 // import WeatherIcon from "./components/WeatherIcon";
-import { Toaster } from "react-hot-toast";
+// import { Toaster } from "react-hot-toast";
 import BotIcon from "./components/BotIcon"
 import "animate.css/animate.min.css";
-import {AnimationOnScroll} from "react-animation-on-scroll"
+import Popup from "./components/Popup"
+import Pop from "./components/Pop";
+// import {AnimationOnScroll} from "react-animation-on-scroll"
 
 
 function App() {
+  const [isOpen, setIsOpen] = useState(true)
+  function open(){
+    setIsOpen(true)
+  }
   return (
     <>
-      <Toaster
+      {/* <Toaster
         position="top-center"
         reverseOrder={false}
         gutter={8}
@@ -38,10 +44,11 @@ function App() {
             color: "#fff"
           },
         }}
-      />
+      /> */}
       <Nav />
       <AddToHomeScreen />
       <Type />
+      {isOpen && <Popup setIsOpen={setIsOpen}/>}
       {/* <WeatherIcon /> */}
       <MobileNav />
       <BotIcon/>
