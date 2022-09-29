@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
 import Nav from "./components/Nav";
@@ -13,38 +13,33 @@ import Type from "./components/Type";
 import HowItWorks from "./components/pages/HowItWorks";
 import AddToHomeScreen from "@ideasio/add-to-homescreen-react";
 // import WeatherIcon from "./components/WeatherIcon";
-// import { Toaster } from "react-hot-toast";
+import { Toaster } from "react-hot-toast";
 import BotIcon from "./components/BotIcon"
 import "animate.css/animate.min.css";
 import Popup from "./components/Popup"
-import Pop from "./components/Pop";
 // import {AnimationOnScroll} from "react-animation-on-scroll"
 
 
 function App() {
   const [isOpen, setIsOpen] = useState(true)
-  function open(){
-    setIsOpen(true)
-  }
   return (
     <>
-      {/* <Toaster
+      <Toaster
         position="top-center"
         reverseOrder={false}
         gutter={8}
-        // containerClassName=""
-        containerStyle={{maxWidth:"400px", maxHeight:"300px", top:"150px"}}
+        containerClassName=""
+        containerStyle={{}}
         toastOptions={{
           // Define default options
-          // className: "",
+          className: "",
           duration: 5000,
           style: {
-            backgroundColor:"#000",
-            border: "1px solid #fff",
-            color: "#fff"
+            background: "#363636",
+            color: "#fff",
           },
         }}
-      /> */}
+      />
       <Nav />
       <AddToHomeScreen />
       <Type />

@@ -1,6 +1,5 @@
 import React from "react";
 import "./css/footer.css";
-import {nairobi} from "./icons"
 import Nai from "./assets/nAIROBI-ART.png"
 
 
@@ -13,7 +12,7 @@ function MobileFooter() {
         <a href="/how-it-works" style={{color:'#fff'}}> How it works</a>{" "}
       </p>
       <p style={{color:'#fff'}}>
-      NGENI is East Afrika's largest Web3 tech developer studio.
+      Powered by LaLo Communities.  A Subsidiary of NGENI IO LTD.
       </p>
       <p style={{color:'#fff'}}>&copy; {currentDate} Goombay</p>
     </div>
