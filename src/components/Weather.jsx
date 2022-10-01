@@ -4,8 +4,8 @@ import "./css/weather-body.css"
 
 const WEATHER_API_KEY="0bff0698379b96eaf19daa753dfa7f0d"
 
-const lattitude =  25.0343
-const longitude = 77.3963
+const lattitude =  6.1357
+const longitude = 39.3621
 
 
 const Weather = ({setIsOpen}) => {
@@ -14,7 +14,7 @@ const Weather = ({setIsOpen}) => {
     lat: lattitude,
     lon: longitude,
     lang: 'en',
-    unit: 'imperial',
+    unit: 'metric',
   });
   return (
   <>
@@ -29,8 +29,8 @@ const Weather = ({setIsOpen}) => {
       onClick={!setIsOpen}
       data={data}
       lang="en"
-      locationLabel="Bahamas"
-      unitsLabels={{ temperature: 'F', windSpeed: 'Km/h' }}
+      locationLabel="Zanzibar"
+      unitsLabels={{ temperature: '°C', windSpeed: 'Km/h' }}
       showForecast={false}
      ></ReactWeather>
      </div>

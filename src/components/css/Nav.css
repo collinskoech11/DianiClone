@@ -4,7 +4,7 @@
   flex-direction: row;
   padding-left: 15vw;
   padding-right: 15vw;
-  background: #14394D;
+  background: #303846;
 }
 .nav-main a{
   background: transparent;
@@ -21,6 +21,9 @@
   justify-content: space-between;
   padding-left: 2vw;
   padding-right: 2vw;
+}
+.Links-container h5{
+  color:#E29F8C;
 }
 a {
   text-decoration:none;

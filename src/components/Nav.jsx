@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import "./css/Nav.css";
-import logo from "./assets/Goombay.png";
+import logo from "./assets/zanzi.png";
 import toast from "react-hot-toast";
 import {addHome} from "./icons"
 import WeatherIcon from "../components/WeatherIcon"
@@ -63,7 +63,7 @@ function Nav() {
         </div>
         <div className="date-time">
           <div className="time">
-            <h3 style={{margin: "0px", fontSize:"20px", color:'#fff'}}>{currentTime}</h3>
+            <h3 style={{margin: "0px", fontSize:"20px", color:'#E29F8C'}}>{currentTime}</h3>
           </div>
         </div>
         <WeatherIcon/>
