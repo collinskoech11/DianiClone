@@ -12,7 +12,7 @@ function MobileFooter() {
         <a href="/how-it-works" style={{color:'#fff'}}> How it works</a>{" "}
       </p>
       <p style={{color:'#fff'}}>
-      Powered by LaLo Communities.  A Subsidiary of NGENI IO LTD.
+      Powered by LaLo Communities
       </p>
       <p style={{color:'#fff'}}>&copy; {currentDate} Goombay</p>
     </div>
