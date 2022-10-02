@@ -31,7 +31,11 @@ function Nav() {
     }
   };
 
-  const currentTime = new Date().toLocaleTimeString("en-US", { timeZone: "America/Nassau"});
+  const currentTime = new Date().toLocaleTimeString("en-US", {
+    hour12: false,
+    hour: "2-digit",
+    minute: "2-digit",
+  });
   console.log(currentTime);
 
   // let date = newDate.getDate();
