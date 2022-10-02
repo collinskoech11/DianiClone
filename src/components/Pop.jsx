@@ -8,7 +8,7 @@
 //     <div className="main-pop">
 //       <div className="popup-main">
 //         <div className="Logo-container">
-//           <img src={logo} alt="Goombay" />
+//           <img src={logo} alt="Zanziapp" />
 //         </div>
 
 //         <h4 className="spec"> Call/text:</h4>

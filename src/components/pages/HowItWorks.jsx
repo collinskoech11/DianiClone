@@ -28,7 +28,7 @@ function HowItWorks() {
         },
         {
             icon: two,
-            text: "Click on ‘Continue to chat’ and a message will be sent via WhatsApp to Goombay"
+            text: "Click on ‘Continue to chat’ and a message will be sent via WhatsApp to Zanziapp"
         },
         {
             icon: three,

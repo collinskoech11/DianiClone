@@ -14,7 +14,7 @@ function MobileFooter() {
       <p style={{color:'#fff'}}>
       Powered by LaLo Communities
       </p>
-      <p style={{color:'#fff'}}>&copy; {currentDate} Goombay</p>
+      <p style={{color:'#fff'}}>&copy; {currentDate} Zanziapp</p>
     </div>
   );
 }

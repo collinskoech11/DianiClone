@@ -42,7 +42,7 @@ function Nav() {
     <nav>
       <div className="nav-main">
         <div className="Logo-container">
-          <NavLink to="/"><img src={logo} alt="Goombay" /></NavLink>
+          <NavLink to="/"><img src={logo} alt="Zanziapp" /></NavLink>
         </div>
         <div className="Links-container">
           <NavLink to="/">

@@ -20,38 +20,6 @@ import {
 function Home() {
   const data = [
     {
-      name: "Food Delivery 24/7",
-      number: "+254773287540",
-      message: "Hi Goombay 😊, I want to order some food 🍝",
-      className: "whatsapp",
-      image: food,
-      desc: "image desc",
-    },
-    { 
-      name: "Drinks Delivery 24/7",
-      number: "+254773287540",
-      message: "Hi Goombay 😊 I want to order some Drinks 🥂",
-      className: "whatsapp",
-      image: drink,
-      desc: "image desc",
-    },
-    {
-      name: "Groceries 24/7",
-      number: "+254773287540",
-      message: "Hi Goombay 😊 I want to order some grocceries 🧅",
-      className: "whatsapp",
-      image: groceries,
-      desc: "image desc",
-    },
-    {
-      name: "Order Taxi 24/7",
-      number: "+254773287540",
-      message: "Hi Goombay 😊 I want to order a taxi 🚕",
-      className: "whatsapp",
-      image: taxi,
-      desc: "image desc",
-    },
-    {
       name: "Cash, Currencies + Exchange",
       number: "+254773287540",
       message: "Hi DianiAPP 😊 I need some Ksh 💰",
@@ -60,51 +28,53 @@ function Home() {
       desc: "image desc",
     },
     {
-      name: "Dinner Reservations",
-      number: "+254773287540",
-      message: "Hi Goombay 😊 want to make a dinner reservation 🍽️",
-      className: "whatsapp",
-      image: dinner,
-      desc: "image desc",
-    },
-    {
-      name: "Airport Transportation",
-      number: "+254773287540",
-      message: "Hi Goombay 😊 I need to get to the airport ✈️",
-      className: "whatsapp",
-      image: plane,
-      desc: "image desc",
-    },
-    {
       name: "Spend Crypto",
       number: "+254773287540",
-      message: "Hi Goombay 😊 I want to spend some crypto ₿",
+      message: "Hi Zanziapp 😊 I want to spend some crypto ₿",
       className: "whatsapp spex",
       image: cryptobtc,
       desc: "image desc",
     },
     {
-      name: "Rent a Boat",
+      name: "$200 Shillings (TZS)",
       number: "+254773287540",
-      message: "Hi Goombay 😊 Im want to rent a boat 🛥️",
+      message: "Hi Zanziapp 😊 Im want to rent a boat 🛥️",
       className: "whatsapp",
-      image: boatsvg,
       desc: "image desc",
     },
     {
-      name: "Accommodation Booking",
+      name: "$400 Shillings (TZS)",
       number: "+254773287540",
-      message: "Hi Goombay 😊, I need to get accomodation 🏨",
+      message: "Hi Zanziapp 😊, I need to get accomodation 🏨",
       className: "whatsapp",
-      image: hotel,
       desc: "image desc",
     },
     {
-      name: "Mail/Package Delivery",
+      name: "$600 Shillings (TZS)",
       number: "+254773287540",
-      message: "Hi Goombay 😊, I need to get a package delivered 📦",
+      message: "Hi Zanziapp 😊, I need to get a package delivered 📦",
       className: "whatsapp",
-      image: packageicon,
+      desc: "image desc",
+    },
+    {
+      name: "$800 Shillings (TZS)",
+      number: "+254773287540",
+      message: "Hi Zanziapp 😊 Im want to rent a boat 🛥️",
+      className: "whatsapp",
+      desc: "image desc",
+    },
+    {
+      name: "$1000 Shillings (TZS)",
+      number: "+254773287540",
+      message: "Hi Zanziapp 😊, I need to get accomodation 🏨",
+      className: "whatsapp",
+      desc: "image desc",
+    },
+    {
+      name: "LARGER AMOUNT",
+      number: "+254773287540",
+      message: "Hi Zanziapp 😊, I need to get a package delivered 📦",
+      className: "whatsapp",
       desc: "image desc",
     },
   ];
@@ -120,19 +90,30 @@ function Home() {
             className={item.className}
           >
             <div className="Tab-item">
-              <div className="grid-left">{item.image}</div>
+              <div className="grid-left">{item.image} &nbsp; &nbsp; </div>
               <div className="grid-right">{item.name}</div>
             </div>
           </ReactWhatsapp>
         ))}
+        <h3>Virtual Concierge</h3>
         <ReactWhatsapp
               number="+254773287540"
-              message="Hi Goombay Im interested in renting a car scooter bike "
+              message="Hi Zanziapp Im interested in renting a car scooter bike "
               className="whatsapp"
             >
           <div className="Tab-item">
-            <div className="grid-left">Rent a</div><div className="scooter"div>{scooter} {bike} {taxi}</div>     
-          </div>
+              <div className="grid-left"></div>
+              <div className="grid-right">[  ZANZI AG  ] </div>
+            </div>
+        </ReactWhatsapp>
+        <ReactWhatsapp
+              number="+254773287540"
+              message="Hi Zanziapp Im interested in renting a car scooter bike "
+              className="whatsapp"
+            >
+          <div className="Tab-item">
+              <p>Use HiLucy for taxis, table reservations, parties, events, rentals, VIP services and much more… </p>
+            </div>
         </ReactWhatsapp>
       </div>
     </div>
