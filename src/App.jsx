@@ -45,7 +45,7 @@ function App() {
       <Type />
       {isOpen && <Popup setIsOpen={setIsOpen}/>}
       {/* <WeatherIcon /> */}
-      <MobileNav />
+      {/* <MobileNav /> */}
       <BotIcon/>
       <Routes>
         <Route path="/" exact element={<Home/>} />

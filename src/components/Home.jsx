@@ -102,17 +102,7 @@ function Home() {
               className="whatsapp"
             >
           <div className="Tab-item">
-              <div className="grid-left"></div>
-              <div className="grid-right">[  ZANZI AG  ] </div>
-            </div>
-        </ReactWhatsapp>
-        <ReactWhatsapp
-              number="+254773287540"
-              message="Hi Zanziapp Im interested in renting a car scooter bike "
-              className="whatsapp"
-            >
-          <div className="Tab-item">
-              <p>Use HiLucy for taxis, table reservations, parties, events, rentals, VIP services and much more… </p>
+              <p>Use Zanzi AG for taxis, table reservations, parties, events, rentals, VIP services and much more… </p>
             </div>
         </ReactWhatsapp>
       </div>

@@ -44,7 +44,7 @@ function Nav() {
         <div className="Logo-container">
           <NavLink to="/"><img src={logo} alt="Zanziapp" /></NavLink>
         </div>
-        <div className="Links-container">
+        {/* <div className="Links-container">
           <NavLink to="/">
             <h5>⭐ Popular</h5>
           </NavLink>
@@ -60,7 +60,7 @@ function Nav() {
           <NavLink to="/Activities">
             <h5>Tours + Activities</h5>
           </NavLink>
-        </div>
+        </div> */}
         <div className="date-time">
           <div className="time">
             <h3 style={{margin: "0px", fontSize:"20px", color:'#E29F8C'}}>{currentTime}</h3>
