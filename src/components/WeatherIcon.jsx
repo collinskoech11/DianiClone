@@ -33,7 +33,7 @@ function WeatherIcon() {
     <>
     <div onClick={set} className="weatherflex">
       <div className="weather">
-      {weather} {temperature}°F <img src={iconUrl} alt="#"/>
+      {weather} {temperature}°F 
       </div>
     </div>
     {isOpen && <Weather setIsOpen={setIsOpen}/>}

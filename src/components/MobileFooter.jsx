@@ -1,22 +1,78 @@
-import React from "react";
+import React, { useState } from "react";
 import "./css/footer.css";
-import Nai from "./assets/nAIROBI-ART.png"
+import Nai from "./assets/nAIROBI-ART.png";
+import Logo from "./assets/goombaymanifest.png";
+import {
+  amazon,
+  uber,
+  bookingcom,
+  justEat,
+  jumialogo,
+  lalologo,
+} from "./icons";
+import WalletConnect from "./WalletConnect";
 
-
-function MobileFooter() {
+const MobileFooter = ({ setItIsOpen }) => {
   const currentDate = new Date().getFullYear();
+
+  const clicked = () => {
+    setItIsOpen(true);
+    console.log("clicked");
+  };
   return (
     <div className="foot-container">
-      <p><img src={Nai} alt="src alt" width="250px"/></p>
-      <p >
-        <a href="/how-it-works" style={{color:'#fff'}}> How it works</a>{" "}
+      <p>
+        <a href="/how-it-works"> HOW IT WORKS ❓</a>{" "}
       </p>
-      <p style={{color:'#fff'}}>
-      Powered by LaLo Communities.  A Subsidiary of NGENI IO LTD.
+      {/* <p>
+        <WalletConnect />
+      </p> */}
+
+      <p>
+        <br />
+        <br />
+        <img src={Logo} alt="logo" height={"15px"} /> DianiApp &trade; is a partner-based dApp <br />
+        <p
+          onClick={clicked}
+          style={{ color: "#fff", marginBottom:"-35px"}}
+        >
+          {" "}
+          <span style={{ color: "#fff" }}>Within </span>{" "}
+          <span style={{ textTransform: "uppercase", color: "#fff", }}>
+            LaLo Communitites
+          </span>
+        </p>
+        <br /> 
+        <span style={{ color: "#05BFAB" }}> ecosystem. GoomBay is a</span>{" "}
+        <br />
+        Web3+Blockchain powered
+        <br />
+        Bookings & Deliveries
+        <br />
+        dApp for Anything. Anytime.
+        <br /> A mashup of ....
+        <br />
+        <br />
       </p>
-      <p style={{color:'#fff'}}>&copy; {currentDate} Goombay</p>
+      <p style={{ marginBottom: "-15px", marginTop: "-30px" }}>{jumialogo}</p>
+      <p style={{ marginBottom: "-15px" }}>
+        {amazon} &nbsp; &nbsp; {uber} &nbsp; &nbsp;
+        {bookingcom}&nbsp; &nbsp; {justEat}
+      </p>
+
+      <p>Serving small communities <h3>🌎</h3></p>
+      <p>
+        <img
+          src={Nai}
+          alt="src alt"
+          width="250px"
+          style={{ marginBottom: "-10px" }}
+        />
+      </p>
+
+      <p>&copy; {currentDate} DianiApp. All Rights Reserved</p>
     </div>
   );
-}
+};
 
 export default MobileFooter;

@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Route, Routes } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { Route, Routes, Navigate } from "react-router-dom";
 import Home from "./components/Home";
 import Nav from "./components/Nav";
 import MobileFooter from "./components/MobileFooter";
@@ -12,19 +12,58 @@ import MobileNav from "./components/MobileNav";
 import Type from "./components/Type";
 import HowItWorks from "./components/pages/HowItWorks";
 import AddToHomeScreen from "@ideasio/add-to-homescreen-react";
-// import WeatherIcon from "./components/WeatherIcon";
-import { Toaster } from "react-hot-toast";
 import BotIcon from "./components/BotIcon"
+import Rating from "./components/pages/RatingView"
 import "animate.css/animate.min.css";
-import Popup from "./components/Popup"
+import DefaultNav from "./components/DefaultNav";
 // import {AnimationOnScroll} from "react-animation-on-scroll"
+import Popup from "./components/Popup"
+import {Toaster}  from  "react-hot-toast"
+// import Marquee from "./components/Marquee";
+import Lalo from "./components/Lalo"
+import "@fontsource/montserrat"; // Defaults to weight 400.
 
 
 function App() {
-  const [isOpen, setIsOpen] = useState(true)
+  const [itIsOpen, setItIsOpen]= useState(false)
+  // eslint-disable-next-line no-unused-vars
+  const [isOpen, setIsOpen] = useState(false)
+
+
+
+  const setPopupOpen = () => {
+    setItIsOpen(!itIsOpen);
+  }
+  
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+     setIsOpen(true)  
+    }, [5000]);
+    // I will be deleted while component is unmounting.
+    return () => clearTimeout(timer) 
+    }, []);
+    useEffect(() => {
+      const timer = setTimeout(() => {
+       setIsOpen(false)  
+      }, [20000]);
+      // I will be deleted while component is unmounting.
+      return () => clearTimeout(timer) 
+      }, []);
+
+
+      // useEffect(() => {
+      //   const timer = setTimeout(() => {
+      //    setItIsOpen(true)  
+      //   }, [5000]);
+      //   // I will be deleted while component is unmounting.
+      //   return () => clearTimeout(timer) 
+      //   }, []);
+
   return (
     <>
-      <Toaster
+    {itIsOpen && <Lalo setItIsOpen={setItIsOpen}/>}
+     <Toaster
         position="top-center"
         reverseOrder={false}
         gutter={8}
@@ -40,23 +79,28 @@ function App() {
           },
         }}
       />
+      <DefaultNav/>
       <Nav />
+      {/* <Marquee/> */}
       <AddToHomeScreen />
       <Type />
-      {isOpen && <Popup setIsOpen={setIsOpen}/>}
       {/* <WeatherIcon /> */}
+      {isOpen && <Popup setIsOpen={setIsOpen}/>}
       <MobileNav />
       <BotIcon/>
       <Routes>
-        <Route path="/" exact element={<Home/>} />
-        <Route path="/Wellness" element={<Wellness/>} />
-        <Route path="/NightLife" element={<NightLife/>} />
-        <Route path="/Tours" element={<Tours/>} />
-        <Route path="/VIP" element={<VIP/>} />
-        <Route path="/Activities" element={<Activities/>} />
-        <Route path="/how-it-works" element={<HowItWorks/>} />
+        <Route path="/" element={<Home />} />
+        <Route path="/popular" element={<Home />} />
+        <Route path="/Wellness" element={<Wellness />} />
+        <Route path="/NightLife" element={<NightLife />} />
+        <Route path="/Tours" element={<Tours />} />
+        <Route path="/VIP" element={<VIP />} />
+        <Route path="/Activities" element={<Activities />} />
+        <Route path="/how-it-works" element={<HowItWorks />} />
+        <Route path="/rate-us" element={<Rating />} />
+        {/* <Route path="/services/new" element={<NewService />} /> */}
       </Routes>
-      <MobileFooter />
+      <MobileFooter setItIsOpen={setPopupOpen} />
 
     </>
   );
