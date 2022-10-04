@@ -51,7 +51,7 @@ function Home() {
 
   return (
     <div className="container">
-      <h4>INSTANT GO {rocket}</h4>
+      <h4 style={{paddingTop:"30px"}}>INSTANT GO {rocket}</h4>
       <div className="Tabs-container">
       <ReactWhatsapp
             number={"+254115144146"}
@@ -84,7 +84,7 @@ function Home() {
               className="whatsapp"
             >
           <div className="Tab-item">
-            <div className="grid-left">{boatsvg}</div> <div className="grid-right">{icongrup} Cars/Taxis Ebikes Scooter Boats </div>     
+            <div className="">{icongrup} </div> <div className="grid-right">Cars/Taxis Ebikes Scooter Boats </div>     
           </div>
         </ReactWhatsapp>
         {/* {scooter}&nbsp; {bikesmall}&nbsp;&nbsp; {taxi}&nbsp; */}
@@ -103,7 +103,7 @@ function Home() {
         </ReactWhatsapp>
          
 
-        <h4>24/7 BOOKINGS {bookingicon}</h4>
+        <h4 style={{paddingTop:"30px"}}>24/7 BOOKINGS {bookingicon}</h4>
           <ReactWhatsapp
             number={"+254115144146"}
             message={"Hi Dianiapp I want to book accomodation."}
@@ -137,7 +137,7 @@ function Home() {
             </div>
           </ReactWhatsapp>
 
-          <h4>BANKING & FX {kes}</h4>
+          <h4 style={{paddingTop:"30px"}}>BANKING & FX {kes}</h4>
           <ReactWhatsapp
             number={"+254115144146"}
             message={"Hi Dianiapp I want to book accomodation."}
@@ -171,14 +171,14 @@ function Home() {
             </div>
           </ReactWhatsapp>
 
-          <h4>FAST SHOPPING {shopping}</h4>
+          <h4 style={{paddingTop:"30px"}}>FAST SHOPPING {shopping}</h4>
           <ReactWhatsapp
             number={"+254115144146"}
             message={"Hi Dianiapp I want to book accomodation."}
             className="whatsapp"
           >
             <div className="Tab-item" style={{paddingLeft:"15px", fontSize:"0.9em", }}>
-              {icongroup} Buy Now. Delivered Now
+              <div>{icongroup}</div> Buy Now. Delivered Now
             </div>
           </ReactWhatsapp>
 
