@@ -19,8 +19,8 @@
 //         </div>
 //         <h4> Email:</h4>
 //         <div className="contacts">
-//           <ExternalLink href="mailto:help@dianiapp.com">
-//             📩 help@dianiapp.com
+//           <ExternalLink href="mailto:help@GoomBaypp.com">
+//             📩 help@GoomBaypp.com
 //           </ExternalLink>
 //         </div>
 //         <div className="close">

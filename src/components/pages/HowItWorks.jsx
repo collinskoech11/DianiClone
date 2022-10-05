@@ -13,7 +13,7 @@ import {UnstoppableDomain} from "../Modal/UnstoppableDomain"
 
 function HowItWorks() {
     const [open, setOpen] = useState(false)
-    const [domain, setDomain] = useState("dianiapp.crypto")
+    const [domain, setDomain] = useState("GoomBaypp.crypto")
     const [records, setRecords] = useState([]);
 
     const showModal = () => {
@@ -48,7 +48,7 @@ function HowItWorks() {
 
     const resolveRecord = async () => {
         if (!domain) {
-          toast.error("Please input your unstoppable domain e.g dianiapp.crypto");
+          toast.error("Please input your unstoppable domain e.g GoomBaypp.crypto");
           return;
         }
         try {
