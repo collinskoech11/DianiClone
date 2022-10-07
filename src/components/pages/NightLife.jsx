@@ -8,7 +8,7 @@ function NightLife() {
     {
       name: "Dinner Reservation",
       number: "+254773287540",
-      message: "Hi Goombay 😊, I need to make a dinner reservation 🍝",
+      message: "Hi Goombay 😊, I need  a dinner reservation 🍝",
       className: "whatsapp",
       image: dinner,
       desc: "image desc",
@@ -16,7 +16,7 @@ function NightLife() {
     {
       name: "Table Reservation",
       number: "+254773287540",
-      message: "Hi Goombay 😊, I need to make a Table reservation 🍽️",
+      message: "Hi Goombay 😊, I need a Table reservation 🍽️",
       className: "whatsapp",
       image: drink,
       desc: "image desc",
@@ -24,7 +24,7 @@ function NightLife() {
     {
       name: "Luxury Reservation",
       number: "+254773287540",
-      message: "Hi Goombay 😊, I want to make luxury reservation⚜️",
+      message: "Hi Goombay 😊, I need luxury reservation⚜️",
       className: "whatsapp",
       image: plane,
       desc: "image desc",
