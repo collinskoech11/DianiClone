@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./css/footer.css";
 import Nai from "./assets/nAIROBI-ART.png";
-import Logo from "./assets/goombaymanifest.png";
+import Logo from "./assets/Goombay.png";
 import {
   amazon,
   uber,
@@ -31,7 +31,7 @@ const MobileFooter = ({ setItIsOpen }) => {
       <p>
         <br />
         <br />
-        <img src={Logo} alt="logo" height={"15px"} /> GoomBaypp &trade; is a partner-based dApp <br />
+        <img src={Logo} alt="logo" height={"15px"} /> JingerApppp &trade; is a partner-based dApp <br />
         <p
           onClick={clicked}
           style={{ color: "#fff", marginBottom:"-35px"}}
@@ -43,7 +43,7 @@ const MobileFooter = ({ setItIsOpen }) => {
           </span>
         </p>
         <br /> 
-        <span style={{ color: "#05BFAB" }}> ecosystem. GoomBay is a</span>{" "}
+        <span style={{ color: "#72ED2F" }}> ecosystem. JingerApp is a</span>{" "}
         <br />
         Web3+Blockchain powered
         <br />
@@ -70,7 +70,7 @@ const MobileFooter = ({ setItIsOpen }) => {
         />
       </p>
 
-      <p>&copy; {currentDate} GoomBay. All Rights Reserved</p>
+      <p>&copy; {currentDate} JingerApp. All Rights Reserved</p>
     </div>
   );
 };

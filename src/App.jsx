@@ -22,14 +22,20 @@ import {Toaster}  from  "react-hot-toast"
 // import Marquee from "./components/Marquee";
 import Lalo from "./components/Lalo"
 import "@fontsource/montserrat"; // Defaults to weight 400.
+import WalletConnector from "./components/WalletConnector"
+import Preloader from "./components/PreLoad/Preloader";
+// import {ConnectButton} from "@rainbow-me/rainbowkit"
 
 
 function App() {
   const [itIsOpen, setItIsOpen]= useState(false)
   // eslint-disable-next-line no-unused-vars
   const [isOpen, setIsOpen] = useState(false)
+  const [isLoading, setIsLoading] = useState(true)
 
-
+  useEffect(() => {
+    setTimeout(() => setIsLoading(false), 3000);
+  }, [])
 
   const setPopupOpen = () => {
     setItIsOpen(!itIsOpen);
@@ -62,45 +68,53 @@ function App() {
 
   return (
     <>
+    {/* <ConnectButton/> */}
     {itIsOpen && <Lalo setItIsOpen={setItIsOpen}/>}
-     <Toaster
-        position="top-center"
-        reverseOrder={false}
-        gutter={8}
-        containerClassName=""
-        containerStyle={{}}
-        toastOptions={{
-          // Define default options
-          className: "",
-          duration: 5000,
-          style: {
-            background: "#363636",
-            color: "#fff",
-          },
-        }}
-      />
-      <DefaultNav/>
-      <Nav />
-      {/* <Marquee/> */}
-      <AddToHomeScreen />
-      <Type />
-      {/* <WeatherIcon /> */}
-      {isOpen && <Popup setIsOpen={setIsOpen}/>}
-      <MobileNav />
-      <BotIcon/>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/popular" element={<Home />} />
-        <Route path="/Wellness" element={<Wellness />} />
-        <Route path="/NightLife" element={<NightLife />} />
-        <Route path="/Tours" element={<Tours />} />
-        <Route path="/VIP" element={<VIP />} />
-        <Route path="/Activities" element={<Activities />} />
-        <Route path="/how-it-works" element={<HowItWorks />} />
-        <Route path="/rate-us" element={<Rating />} />
-        {/* <Route path="/services/new" element={<NewService />} /> */}
-      </Routes>
-      <MobileFooter setItIsOpen={setPopupOpen} />
+    {isLoading ? (
+      <Preloader/>
+    ):(
+      <>
+      <Toaster
+      position="top-center"
+      reverseOrder={false}
+      gutter={8}
+      containerClassName=""
+      containerStyle={{}}
+      toastOptions={{
+        // Define default options
+        className: "",
+        duration: 5000,
+        style: {
+          background: "#363636",
+          color: "#fff",
+        },
+      }}
+    />
+    <WalletConnector/>
+    <DefaultNav/>
+    <Nav />
+    {/* <Marquee/> */}
+    <AddToHomeScreen />
+    <Type />
+    {/* <WeatherIcon /> */}
+    {isOpen && <Popup setIsOpen={setIsOpen}/>}
+    <MobileNav />
+    <BotIcon/>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/popular" element={<Home />} />
+      <Route path="/Wellness" element={<Wellness />} />
+      <Route path="/NightLife" element={<NightLife />} />
+      <Route path="/Tours" element={<Tours />} />
+      <Route path="/VIP" element={<VIP />} />
+      <Route path="/Activities" element={<Activities />} />
+      <Route path="/how-it-works" element={<HowItWorks />} />
+      <Route path="/rate-us" element={<Rating />} />
+      {/* <Route path="/services/new" element={<NewService />} /> */}
+    </Routes>
+    <MobileFooter setItIsOpen={setPopupOpen} />
+    </>
+    )}
 
     </>
   );

@@ -4,7 +4,7 @@
   flex-direction: row;
   padding-left: 15vw;
   padding-right: 15vw;
-  background: #14394D;
+  background: #3F4243;
 }
 .nav-main a{
   background: transparent;
@@ -39,6 +39,7 @@ a {
 }
 .Logo-container img {
   background-color: transparent;
+  width:100px;
 }
 .Logo-container {
   border-radius: 12px 12px 0px 0px;

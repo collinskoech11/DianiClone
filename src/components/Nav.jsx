@@ -5,6 +5,7 @@ import toast from "react-hot-toast";
 import {addHome} from "./icons"
 import WeatherIcon from "../components/WeatherIcon"
 import {NavLink} from "react-router-dom"
+import {logojinger} from "./icons"
 
 function Nav() {
   const [supportsPWA, setSupportsPWA] = useState(false);
@@ -42,7 +43,7 @@ function Nav() {
     <nav>
       <div className="nav-main">
         <div className="Logo-container">
-          <NavLink to="/"><img src={logo} alt="Goombay" /></NavLink>
+          <NavLink to="/">{logojinger}</NavLink>
         </div>
         <div className="Links-container">
           <NavLink to="/">
