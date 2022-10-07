@@ -42,7 +42,7 @@ function Nav() {
   return (
     <nav>
       <div className="nav-main">
-        <div className="Logo-container">
+        <div className="Logo-container" style={{paddingTop:"15px", paddingBottom:"15px"}}>
           <NavLink to="/">{logojinger}</NavLink>
         </div>
         <div className="Links-container">
