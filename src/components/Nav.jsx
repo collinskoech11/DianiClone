@@ -1,9 +1,6 @@
 import { useState, useEffect } from "react";
 import "./css/Nav.css";
-import logo from "./assets/Goombay.png";
 import toast from "react-hot-toast";
-import {addHome} from "./icons"
-import WeatherIcon from "../components/WeatherIcon"
 import {NavLink} from "react-router-dom"
 import {logojinger} from "./icons"
 
