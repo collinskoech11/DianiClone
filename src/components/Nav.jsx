@@ -63,7 +63,7 @@ function Nav() {
         </div>
         <div className="pwa-btn">
           {/* {supportsPWA ? ( */}
-            <div onClick={(e) => addToHomeScreen(e)}><button>Install</button></div>
+            <button onClick={(e) => addToHomeScreen(e)}>Install</button><h4>get goombay installed</h4>
           {/* ) : null} */}
         </div>
       </div>
