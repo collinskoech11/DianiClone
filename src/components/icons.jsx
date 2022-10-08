@@ -614,8 +614,8 @@ export const groceries = (
 );
 export const grocerieswhite = (
   <svg
-    width="46"
-    height="57"
+    width="23"
+    height="18"
     viewBox="0 0 46 57"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
