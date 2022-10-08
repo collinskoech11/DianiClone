@@ -62,9 +62,9 @@ function Nav() {
           </NavLink>
         </div>
         <div className="pwa-btn">
-          {supportsPWA ? (
-            <div onClick={(e) => addToHomeScreen(e)}>{addHome}</div>
-          ) : null}
+          {/* {supportsPWA ? ( */}
+            <div onClick={(e) => addToHomeScreen(e)}><button>Install</button></div>
+          {/* ) : null} */}
         </div>
       </div>
     </nav>
