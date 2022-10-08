@@ -14,7 +14,7 @@ const Weather = ({setIsOpen}) => {
     lat: lattitude,
     lon: longitude,
     lang: 'en',
-    unit: 'imperial',
+    unit: 'metric',
   });
   return (
   <>
@@ -29,8 +29,8 @@ const Weather = ({setIsOpen}) => {
       onClick={!setIsOpen}
       data={data}
       lang="en"
-      locationLabel="Bahamas"
-      unitsLabels={{ temperature: 'F', windSpeed: 'Km/h' }}
+      locationLabel="Jinger"
+      unitsLabels={{ temperature: 'C', windSpeed: 'Km/h' }}
       showForecast={false}
      ></ReactWeather>
      </div>

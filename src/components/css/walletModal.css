@@ -1,6 +1,6 @@
 .main-connect{
     position: fixed;
-    bottom:2vh;
+    bottom:9vh;
     right: 4vw;
     width:auto;
     height:auto;
@@ -16,7 +16,7 @@
 .transition{
     display:flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content:flex-start;
 }
 .connection-btn{
     transition:all 1s ease-in-out;
@@ -38,15 +38,12 @@
     position:fixed;
     right:5vw;
     border-radius:20px;
-    bottom:4vh;
+    bottom:8vh;
     overflow:hidden;
     transition:all 1s ease-in-out;
     z-index: 10;
 }
 
-.transition div div {
-
-}
 .logo-top-con{
     width:100%;
     height:auto;
