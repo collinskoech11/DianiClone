@@ -9,6 +9,7 @@
     border-radius:20px;
     display:block;
     padding:5vw;
+    transition:all 1s ease-in-out;
 }
 .Lalo-main p{
     background-color: transparent;
@@ -16,8 +17,6 @@
     font-size:0.8em;
     text-align:left ;
     line-height: 20px;
-    
-
 }
 .closest{
     color:#fff;
@@ -25,10 +24,13 @@
     font-size: 2em;
     border-radius: 50%;
     cursor:pointer;
-    /* top:30vh; */
-    top:-10px;
     position:absolute;
-
+    
+}
+@media screen and (min-width:1000px){
+    .closest{
+        margin-top:-50px;
+    }
 }
 .child{
     width:100%;

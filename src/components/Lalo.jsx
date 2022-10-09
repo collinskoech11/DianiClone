@@ -20,7 +20,18 @@ import "./css/Lalo.css";
 import { Carousel } from "react-responsive-carousel";
 import Collapsible from "react-collapsible";
 
+
+
 const Lalo = (props) => {
+  const d = new Date();
+  let hour = d.getHours();
+  function randomNumber(min, max) { 
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+} 
+const rand = randomNumber(1, 10)
+const bookings_idx = rand + (hour*5)
   console.log(props);
   // function clicked(){
   //     setItIsOpen(false)
@@ -98,8 +109,11 @@ const Lalo = (props) => {
             </p>
             <p style={{marginTop:"25px"}}>
             &nbsp;&nbsp;&nbsp;&nbsp;{bookings}<br/>
-              {twentyeight}
+            
+              <h1 style={{fontSize:"3em", color:"#05BFAB", marginTop:"45px", fontWeight:"bold"}}>{bookings_idx}</h1>
+              <p style={{color:"#fff", paddingTop:"20px", color:"#05BFAB"}}>Bookings<br/> made</p>
             </p>
+            
           </div>
           <div className="child">
             <h3
@@ -133,24 +147,21 @@ const Lalo = (props) => {
                   <p>&nbsp; &nbsp; &nbsp; &nbsp;Malindi</p>
                 </Collapsible>
                 <Collapsible trigger="◎ UG 🇺🇬 +" className="collapsible">
-                  <p>&nbsp; &nbsp; &nbsp; &nbsp;JINJER</p>
-                  <p>&nbsp; &nbsp; &nbsp; &nbsp;Kilifi</p>
+                  <p>&nbsp; &nbsp; &nbsp; &nbsp;Jinja</p>
                 </Collapsible>
 
                 <Collapsible trigger="◎ TZ 🇹🇿 +" className="collapsible">
                   <p>&nbsp; &nbsp; &nbsp; &nbsp;Zanzibar</p>
-                  <p>&nbsp; &nbsp; &nbsp; &nbsp;Kilifi</p>
                 </Collapsible>
               </div>
               <div className="child-container-child-spec">
                 <h3 style={{fontSize:"0.9em"}}>CARRIBEAN</h3>
                 <Collapsible trigger="◎ BAMA 🇧🇸 +" className="collapsible">
-                  <p>&nbsp; &nbsp; &nbsp; &nbsp;JINJER</p>
-                  <p>&nbsp; &nbsp; &nbsp; &nbsp;Kilifi</p>
+                  <p>&nbsp; &nbsp; &nbsp; &nbsp;Goombay</p>
                 </Collapsible>
                 <Collapsible trigger="◎ BM 🇧🇲 +" className="collapsible">
-                  <p>&nbsp; &nbsp; &nbsp; &nbsp;JINJER</p>
-                  <p>&nbsp; &nbsp; &nbsp; &nbsp;Kilifi</p>
+                  {/* <p>&nbsp; &nbsp; &nbsp; &nbsp;JINJER</p>
+                  <p>&nbsp; &nbsp; &nbsp; &nbsp;Kilifi</p> */}
                 </Collapsible>
               </div>
               <div className="child-container-child-spec">
