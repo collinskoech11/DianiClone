@@ -6,7 +6,7 @@ function Preloader() {
     <>
       <div className="animate">
         
-        <h2 style={{marginTop:"45vh"}}> <br/>JingerApp</h2>
+        <h2 style={{marginTop:"45vh"}}> <br/>JinjaApp</h2>
       </div>
     </>
   );

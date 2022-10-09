@@ -13,14 +13,14 @@ function VIP() {
       name: "SKYDIVING",
       number: "+254773287540",
       background: skydiving,
-      message: "Hi JingerApp 😊, I want to go Sky Diving 🪂",
+      message: "Hi JinjaApp 😊, I want to go Sky Diving 🪂",
       description:
         "Enjoy some of the finest sceneries in the world and skydive onto the beach. This is a huge tourist attraction for tourists who want to see the landscape from a bird’s-eye view at 12, 000 ft.",
     },
     {
       name: "JET SKIING",
       number: "+254773287540",
-      message: "Hi JingerApp 😊, Im interested in Jet Skiing 🚤",
+      message: "Hi JinjaApp 😊, Im interested in Jet Skiing 🚤",
       background: skiing,
       description:
         "Experience the beautiful view from the open sea and get to know other fascinating parts of the coast.",

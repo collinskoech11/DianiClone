@@ -31,7 +31,7 @@ const MobileFooter = ({ setItIsOpen }) => {
       <p>
         <br />
         <br />
-        <img src={Logo} alt="logo" height={"15px"} /> JingerApppp &trade; is a partner-based dApp <br />
+        <img src={Logo} alt="logo" height={"15px"} /> JinjaApppp &trade; is a partner-based dApp <br />
         <p
           onClick={clicked}
           style={{ color: "#fff", marginBottom:"-35px"}}
@@ -43,7 +43,7 @@ const MobileFooter = ({ setItIsOpen }) => {
           </span>
         </p>
         <br /> 
-        <span style={{ color: "#72ED2F" }}> ecosystem. JingerApp is a</span>{" "}
+        <span style={{ color: "#72ED2F" }}> ecosystem. JinjaApp is a</span>{" "}
         <br />
         Web3+Blockchain powered
         <br />
@@ -70,7 +70,7 @@ const MobileFooter = ({ setItIsOpen }) => {
         />
       </p>
 
-      <p>&copy; {currentDate} JingerApp. All Rights Reserved</p>
+      <p>&copy; {currentDate} JinjaApp. All Rights Reserved</p>
     </div>
   );
 };

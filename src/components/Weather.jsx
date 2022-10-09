@@ -29,7 +29,7 @@ const Weather = ({setIsOpen}) => {
       onClick={!setIsOpen}
       data={data}
       lang="en"
-      locationLabel="Jinger"
+      locationLabel="Jinja"
       unitsLabels={{ temperature: 'C', windSpeed: 'Km/h' }}
       showForecast={false}
      ></ReactWeather>

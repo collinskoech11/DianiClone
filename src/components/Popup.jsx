@@ -11,7 +11,7 @@ const Popup = ({ setIsOpen }) => {
   return (
     <>
     <div className="slack">
-      <h5 style={{color:'#fff'}}><br/>JingerApp is now live<br/><br/> Jinger Digital Warriors <br/><br/> Bookings made today : {rand}<br/><br/> </h5><div className='closer-con' onClick={() => setIsOpen(false)}><h5 className="closer" >+</h5></div>
+      <h5 style={{color:'#fff'}}><br/>JinjaApp is now live<br/><br/> Jinja Digital Warriors <br/><br/> Bookings made today : {rand}<br/><br/> </h5><div className='closer-con' onClick={() => setIsOpen(false)}><h5 className="closer" >+</h5></div>
     </div>
     </>
   )

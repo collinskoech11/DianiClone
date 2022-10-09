@@ -8,7 +8,7 @@
 //     <div className="main-pop">
 //       <div className="popup-main">
 //         <div className="Logo-container">
-//           <img src={logo} alt="JingerApp" />
+//           <img src={logo} alt="JinjaApp" />
 //         </div>
 
 //         <h4 className="spec"> Call/text:</h4>
@@ -19,8 +19,8 @@
 //         </div>
 //         <h4> Email:</h4>
 //         <div className="contacts">
-//           <ExternalLink href="mailto:help@JingerApppp.com">
-//             📩 help@JingerApppp.com
+//           <ExternalLink href="mailto:help@JinjaApppp.com">
+//             📩 help@JinjaApppp.com
 //           </ExternalLink>
 //         </div>
 //         <div className="close">

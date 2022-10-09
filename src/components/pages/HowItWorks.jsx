@@ -13,7 +13,7 @@ import {UnstoppableDomain} from "../Modal/UnstoppableDomain"
 
 function HowItWorks() {
     const [open, setOpen] = useState(false)
-    const [domain, setDomain] = useState("JingerApppp.crypto")
+    const [domain, setDomain] = useState("JinjaApppp.crypto")
     const [records, setRecords] = useState([]);
 
     const showModal = () => {
@@ -28,7 +28,7 @@ function HowItWorks() {
         },
         {
             icon: two,
-            text: "Click on ‘Continue to chat’ and a message will be sent via WhatsApp to JingerApp"
+            text: "Click on ‘Continue to chat’ and a message will be sent via WhatsApp to JinjaApp"
         },
         {
             icon: three,
@@ -48,7 +48,7 @@ function HowItWorks() {
 
     const resolveRecord = async () => {
         if (!domain) {
-          toast.error("Please input your unstoppable domain e.g JingerApppp.crypto");
+          toast.error("Please input your unstoppable domain e.g JinjaApppp.crypto");
           return;
         }
         try {
