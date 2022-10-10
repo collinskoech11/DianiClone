@@ -31,7 +31,7 @@ const MobileFooter = ({ setItIsOpen }) => {
       <p>
         <br />
         <br />
-        <img src={Logo} alt="logo" height={"15px"} /> JinjaApppp &trade; is a partner-based dApp <br />
+        <img src={Logo} alt="logo" height={"15px"} /> JinjaApp &trade; is a partner-based dApp <br />
         <p
           onClick={clicked}
           style={{ color: "#fff", marginBottom:"-35px"}}
