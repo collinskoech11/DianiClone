@@ -1,9 +1,9 @@
 let CACHE_NAME = "my-site-cache-v1";
 const urlsToCache = ["/", "/index.html"];
-self.addEventListener("install", function (event) {
+this.addEventListener("install", (event) => {
   // Perform install steps
   event.waitUntil(
-    caches.open(CACHE_NAME).then(function (cache) {
+    caches.open(CACHE_NAME).then( (cache) => {
       console.log("Opened cache");
       return cache.addAll(urlsToCache);
     })

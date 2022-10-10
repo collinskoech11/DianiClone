@@ -37,6 +37,8 @@
     "react-scripts": "5.0.1",
     "react-tabs": "^5.1.0",
     "react-text-transition": "^3.0.2",
+    "react-transition-group": "^4.4.5",
+    "react-transitions": "^1.0.0",
     "react-type-animation": "^2.1.1",
     "react-typed": "^1.2.0",
     "react-whatsapp": "^0.3.0",

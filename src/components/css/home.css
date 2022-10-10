@@ -43,8 +43,8 @@ h4 {
 .Tabs-container {
   width: 20vw;
   margin: auto;
-  background: #05293C;
   justify-content: center;
+  transition: 1s;
 }
 
 .Tab-item:hover {
