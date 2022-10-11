@@ -61,10 +61,12 @@ function Nav() {
             <h5>Tours + Activities</h5>
           </NavLink>
         </div>
-        <div className="pwa-btn">
-          {/* {supportsPWA ? ( */}
-            <button onClick={(e) => addToHomeScreen(e)}>Install</button><h4>get goombay installed</h4>
-          {/* ) : null} */}
+        <div className="pwa-con">
+          <div className="pwa-btn">
+            {/* {supportsPWA ? ( */}
+              <div><h5>Get the Goombay App<br/>⭐⭐⭐⭐⭐</h5></div> <button onClick={(e) => addToHomeScreen(e)}>Install</button>
+            {/* ) : null} */}
+          </div>
         </div>
       </div>
     </nav>
