@@ -59,10 +59,12 @@ function Nav() {
             <h5>Tours + Activities</h5>
           </NavLink>
         </div>
-        <div className="pwa-btn">
-          {/* {supportsPWA ? ( */}
-            <button onClick={(e) => addToHomeScreen(e)}>Install</button><h4>get jinjaApp installed</h4>
-          {/* ) : null} */}
+        <div className="pwa-con">
+          <div className="pwa-btn">
+            {/* {supportsPWA ? ( */}
+              <div><h5>Get the Diani App<br/>⭐⭐⭐⭐⭐</h5></div> <button onClick={(e) => addToHomeScreen(e)}>Install</button>
+            {/* ) : null} */}
+          </div>
         </div>
       </div>
     </nav>
