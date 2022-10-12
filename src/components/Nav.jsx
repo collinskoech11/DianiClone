@@ -62,7 +62,7 @@ function Nav() {
         <div className="pwa-con">
           <div className="pwa-btn">
             {/* {supportsPWA ? ( */}
-              <div><h5>Get the Diani App<br/>⭐⭐⭐⭐⭐</h5></div> <button onClick={(e) => addToHomeScreen(e)}>Install</button>
+              <div><h5>Get the Jinja App<br/>⭐⭐⭐⭐⭐</h5></div> <button onClick={(e) => addToHomeScreen(e)}>Install</button>
             {/* ) : null} */}
           </div>
         </div>
