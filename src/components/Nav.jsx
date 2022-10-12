@@ -65,16 +65,12 @@ function Nav() {
             <h5>Tours + Activities</h5>
           </NavLink>
         </div> */}
-        <div className="date-time">
-          <div className="time">
-            <h3 style={{margin: "0px", fontSize:"20px", color:'#E29F8C'}}>{currentTime}</h3>
+        <div className="pwa-con">
+          <div className="pwa-btn">
+            {/* {supportsPWA ? ( */}
+              <div><h5>Get the Zanzi App<br/>⭐⭐⭐⭐⭐</h5></div> <button onClick={(e) => addToHomeScreen(e)}>Install</button>
+            {/* ) : null} */}
           </div>
-        </div>
-        <WeatherIcon/>
-        <div className="pwa-btn">
-          {supportsPWA ? (
-            <div onClick={(e) => addToHomeScreen(e)}>{addHome}</div>
-          ) : null}
         </div>
       </div>
     </nav>

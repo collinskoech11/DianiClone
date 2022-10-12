@@ -14,9 +14,11 @@ import HowItWorks from "./components/pages/HowItWorks";
 import AddToHomeScreen from "@ideasio/add-to-homescreen-react";
 // import WeatherIcon from "./components/WeatherIcon";
 import { Toaster } from "react-hot-toast";
+import DefaultNav from "./components/DefaultNav";
 import BotIcon from "./components/BotIcon"
 import "animate.css/animate.min.css";
 import Popup from "./components/Popup"
+import WalletConnector from "./components/WalletConnector"
 // import {AnimationOnScroll} from "react-animation-on-scroll"
 
 
@@ -40,7 +42,9 @@ function App() {
           },
         }}
       />
+      <DefaultNav/>
       <Nav />
+      <WalletConnector/>
       <AddToHomeScreen />
       <Type />
       {isOpen && <Popup setIsOpen={setIsOpen}/>}

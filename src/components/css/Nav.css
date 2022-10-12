@@ -5,6 +5,7 @@
   padding-left: 15vw;
   padding-right: 15vw;
   background: #303846;
+  justify-content: center;
 }
 .nav-main a{
   background: transparent;
@@ -75,10 +76,39 @@ a {
   border: 1px solid #85f2fd;
   border-radius: 8px;
 }
-.pwa-btn{
+.pwa-con {
   position: fixed;
   bottom: 20px;
   left:20px;
+  width: 100%;
+  
+  
+  
+  
+}
+.pwa-btn{
+  justify-content: space-around;
+  background-color: #241845;
+  max-width: 500px;
+  width:100%;
+  margin: auto;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 5px;
+}
+.pwa-btn h4{
+  color: #fff;
+}
+.pwa-btn button{
+  padding: 5px;
+  border-radius: 5px;
+  border:1px solid rgb(2, 8, 37);
+  color:#fff;
+  background-color: navy;
+  width:70px;
+  height: 40px;
+  font-weight: bold;
 }
 .date-time{
   display:flex;
