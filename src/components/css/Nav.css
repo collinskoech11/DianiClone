@@ -37,9 +37,6 @@ a {
   border: none;
   font-size: 1em;
 }
-.Logo-container img {
-  background-color: transparent;
-}
 .Logo-container {
   border-radius: 12px 12px 0px 0px;
   background-color: transparent;
@@ -54,7 +51,7 @@ a {
     border-radius: 10px;
   }
   .Logo-container img {
-    width: 35vw;
+    /* width: 35vw; */
   }
   .nav-main {
     padding-left: 0;

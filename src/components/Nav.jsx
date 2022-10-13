@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import "./css/Nav.css";
-import logo from "./assets/Goombay.svg";
+import logo from "../components/assets/Goombay.svg";
 import toast from "react-hot-toast";
 import {addHome} from "./icons"
 import WeatherIcon from "../components/WeatherIcon"
@@ -42,7 +42,7 @@ function Nav() {
     <nav>
       <div className="nav-main">
         <div className="Logo-container">
-          <NavLink to="/"><img src={logo} alt="Goombay" /></NavLink>
+          <NavLink to="/"><img src={logo} alt="logo new" width="75px"/></NavLink>
         </div>
         <div className="Links-container">
           <NavLink to="/">
