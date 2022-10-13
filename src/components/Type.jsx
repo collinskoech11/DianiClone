@@ -8,9 +8,9 @@ function Type() {
     <h2 style={{ marginTop:'70px',fontSize:'30px', color:'#fff'}}>
       <TypeAnimation
         sequence={[
-          'Deliveries on Tap', // Types 'One'
+          'GET CRYPTO,', // Types 'One'
           3000, // Waits 1s
-          'Anything', // Deletes 'One' and types 'Two'
+          'CASH ON TAP', // Deletes 'One' and types 'Two'
           3000, // Waits 2s
           '...', // Types 'Three' without deleting 'Two'
           () => { // Place optional callbacks anywhere in the array
