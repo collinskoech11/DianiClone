@@ -74,7 +74,6 @@ const Lalo = (props) => {
           <div className="descriptor">
             {tickItem}
             <h6>PWA, install it to your phone as an app
-      
             </h6>
           </div>
           <div className="descriptor">
