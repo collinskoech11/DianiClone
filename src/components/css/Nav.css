@@ -5,6 +5,7 @@
   padding-left: 15vw;
   padding-right: 15vw;
   background: #14394D;
+  justify-content: space-around;
 }
 .nav-main a{
   background: transparent;
@@ -72,8 +73,8 @@ a {
 .pwa-con {
   position: fixed;
   bottom: 20px;
-  left:20px;
-  width: 90%;
+  left:0;
+  width: 100%;
   
   
   
