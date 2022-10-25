@@ -20,7 +20,7 @@ import { Carousel } from "react-responsive-carousel";
 import Collapsible from "react-collapsible";
 import PWA from "./assets/PWA.png"
 import UDL from "./assets/udl.png"
-import Mini from "/home/collins/Desktop/DianiClone/src/components/assets/minidianipp.png"
+import Mini from "./assets/minidianipp.png"
 
 const Lalo = (props) => {
   const d = new Date();
