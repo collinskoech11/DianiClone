@@ -88,19 +88,25 @@ function HowItWorks() {
         <div>
             <h2>Payment Platforms</h2>
             <div className="payment-flex">
-                <div className="payment-item">
+                {/* <div className="payment-item">
                     {cryptobtn}
                         {!open ? (
                     <button className="crypto-button" onClick={() => showModal()}>
                         Crypto
                     </button>
                     ) : null}
-                </div>
+                </div> */}
                 <div className="payment-item">
                     {credit}<h4>Credit Cards </h4>
                 </div>
                 <div className="payment-item">
                     {paypal}<h4> Paypal</h4>
+                </div>
+                <div className="payment-item">
+                    {credit}<h4>MTN MoMo </h4>
+                </div>
+                <div className="payment-item">
+                    {paypal}<h4> Airtel Money</h4>
                 </div>
             </div>
         </div>
@@ -109,7 +115,6 @@ function HowItWorks() {
           Do you have an unstoppable domain? Please resolve it to get all your
           crypto asset address
         </p>
-
         <div className="unstoppable-domains-resolve">
           <div className="resolve">
             <input

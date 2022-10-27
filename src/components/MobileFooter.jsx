@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./css/footer.css";
 import Nai from "./assets/nAIROBI-ART.png";
 import Logo from "./assets/Goombay.png";
+import {NavLink} from "react-router-dom"
 import {
   amazon,
   uber,
@@ -21,56 +22,62 @@ const MobileFooter = ({ setItIsOpen }) => {
   };
   return (
     <div className="foot-container">
-      <p>
-        <a href="/how-it-works"> HOW IT WORKS ❓</a>{" "}
-      </p>
+      <br/><br/><br/>
+      <NavLink to="/how-it-works" className="how">
+        <div className="wrap-how">
+          <h4>
+            HOW IT WORKS❓
+          </h4>
+        </div>
+      </NavLink>
+      <br/><br/><br/>
       {/* <p>
-        <WalletConnect />
+        <WalletConnect />{txdata.map((item, i) => {
+            return(
+                <tr key={i}>
+                    <td>{i}</td>
+                    <td>{item.username}</td>
+                    <td>{item.bscAddress}</td>
+                </tr>
+            )
+        })}
       </p> */}
 
-      <p>
         <br />
         <br />
-        <img src={Logo} alt="logo" height={"15px"} /> JinjaApp &trade; is a partner-based dApp <br />
+        <img src={Logo} alt="logo" height={"85px"} />
         <p
-          onClick={clicked}
-          style={{ color: "#fff", marginBottom:"-35px"}}
+          
+          style={{ color: "#fff", marginBottom:"-35px", marginLeft:"15%", marginRight:"15%", lineHeight:"15px"}}
         >
           {" "}
-          <span style={{ color: "#fff" }}>Within </span>{" "}
-          <span style={{ textTransform: "uppercase", color: "#fff", }}>
-            LaLo Communitites
+          JinjaApp &trade; is a partner-based dApp Within &nbsp;
+          <span style={{ textTransform: "uppercase", color: "#ff99ff", cursor:"pointer" }} onClick={clicked}>
+            LaLo Communitites &nbsp;
           </span>
+          ecosystem. <br className="dissapear"/>LaLo Communities is a Web3+Blockchain powered Bookings & Deliveries dApp for Anything. Anytime. <br/><br/> A mashup of .... <br/><br/> 
         </p>
         <br /> 
-        <span style={{ color: "#72ED2F" }}> ecosystem. JinjaApp is a</span>{" "}
-        <br />
-        Web3+Blockchain powered
-        <br />
-        Bookings & Deliveries
-        <br />
-        dApp for Anything. Anytime.
-        <br /> A mashup of ....
-        <br />
-        <br />
-      </p>
-      <p style={{ marginBottom: "-15px", marginTop: "-30px" }}>{jumialogo}</p>
+
+     
       <p style={{ marginBottom: "-15px" }}>
         {amazon} &nbsp; &nbsp; {uber} &nbsp; &nbsp;
         {bookingcom}&nbsp; &nbsp; {justEat}
       </p>
+      <p style={{ marginBottom: "0", }}>{jumialogo}</p>
 
-      <p>Serving small communities <h3>🌎</h3></p>
+      <p >Serving small communities globally</p>
+      <h4 style={{marginTop:"-15px"}}>🌎</h4><p>TRY US !</p><br/><br/>
       <p>
         <img
           src={Nai}
           alt="src alt"
-          width="250px"
+          width="185px"
           style={{ marginBottom: "-10px" }}
         />
-      </p>
+      </p><br/>
 
-      <p>&copy; {currentDate} JinjaApp. All Rights Reserved</p>
+      <p>&copy; {currentDate} JinjaApp. All Rights Reserved</p><br/><br/><br/><br/>
     </div>
   );
 };

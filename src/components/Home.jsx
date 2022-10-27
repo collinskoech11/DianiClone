@@ -96,10 +96,10 @@ function Home() {
               className="whatsapp"
             >
           <div className="Tab-item" style={{display:"flex", justifyContent:"space-around"}}>
-            <div className="flex-car-item">Scooter<br/>{scooter}</div>  
-            <div className="flex-car-item">E-Bikes<br/>{bike}</div> 
-            <div className="flex-car-item">{renta}</div> 
+            {/* <div className="flex-car-item">Scooter<br/>{scooter}</div>  
+            <div className="flex-car-item">E-Bikes<br/>{bike}</div>  */}
             <div className="flex-car-item">Car/Taxi<br/>{taxi}</div> 
+            <div className="flex-car-item">{renta}</div> 
             <div className="flex-car-item">Boat<br/>{boat}</div>    
           </div>
         </ReactWhatsapp>
@@ -165,39 +165,6 @@ function Home() {
             </div>
           </ReactWhatsapp>
 
-        <ReactWhatsapp
-            number={"+254115144146"}
-            message={"Hello DianiApp 😊 I need to spend some crypto 💸"}
-            className="whatsapp"
-          >
-            <div className="Tab-item">
-            <div className="grid-left">{cryptobtnnew}</div>
-              <div className="grid-right"> Spend Crytpo</div>
-            </div>
-          </ReactWhatsapp>
-          <div className="shrink-container">
-            <ReactWhatsapp
-              number={"+254115144146"}
-              message={"Hello DianiApp 😊 I need to spend some crypto 💸"}
-              className="shrink"
-            >
-              <div className="bg">
-                <div className="shrink">{sendcrypto}</div>
-                <div className="shrink"> Send Crypto</div>
-              </div>
-            </ReactWhatsapp>
-
-            <ReactWhatsapp
-              number={"+254115144146"}
-              message={"Hello DianiApp 😊 I need to spend some crypto 💸"}
-              className="shrink"
-            >
-              <div className="bg">
-              <div className="shrink">{receivecrypto}</div>
-                <div className="shrink"> Receive Crytpo</div>
-              </div>
-            </ReactWhatsapp>
-          </div>
           
 
           <h4 style={{marginTop:"30px"}}>FAST SHOPPING {shopping}</h4>
