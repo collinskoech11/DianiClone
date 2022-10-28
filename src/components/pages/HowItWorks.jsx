@@ -10,6 +10,7 @@ import {Modal} from "../Modal/Modal"
 import {CopyToClipboardIcon} from "../Modal/CopyToClipboardIcon"
 import {UnstoppableDomain} from "../Modal/UnstoppableDomain"
 import AirtelMon from "../assets/airtellogo.png"
+import MTNMoMo from "../assets/MTNMoMo.png"
 
 
 function HowItWorks() {
@@ -104,7 +105,7 @@ function HowItWorks() {
                     {paypal}<h4> Paypal</h4>
                 </div>
                 <div className="payment-item">
-                    {credit}<h4>MTN MoMo </h4>
+                <img src={MTNMoMo} width="20px" alt="mobile money"/><h4>MTN MoMo </h4>
                 </div>
                 <div className="payment-item">
                     <img src={AirtelMon} width="20px" alt="airtel money"/><h4> Airtel Money</h4>
