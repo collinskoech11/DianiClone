@@ -25,23 +25,12 @@ const MobileFooter = ({ setItIsOpen }) => {
       <br/><br/><br/>
       <NavLink to="/how-it-works" className="how">
         <div className="wrap-how">
-          <h4>
-            HOW IT WORKS❓
+          <h4 style={{border:"1px solid #72ED2F",borderRadius:"10px", width:"200px", margin:"auto", padding:"10px", color:"#72ED2F"}}>
+            HOW IT WORKS ?
           </h4>
         </div>
       </NavLink>
       <br/><br/><br/>
-      {/* <p>
-        <WalletConnect />{txdata.map((item, i) => {
-            return(
-                <tr key={i}>
-                    <td>{i}</td>
-                    <td>{item.username}</td>
-                    <td>{item.bscAddress}</td>
-                </tr>
-            )
-        })}
-      </p> */}
 
         <br />
         <br />
@@ -53,7 +42,7 @@ const MobileFooter = ({ setItIsOpen }) => {
           {" "}
           JinjaApp &trade; is a partner-based dApp Within &nbsp;
           <span style={{ textTransform: "uppercase", color: "#ff99ff", cursor:"pointer" }} onClick={clicked}>
-            LaLo Communitites &nbsp;
+            LaLo Communities &nbsp;
           </span>
           ecosystem. <br className="dissapear"/>LaLo Communities is a Web3+Blockchain powered Bookings & Deliveries dApp for Anything. Anytime. <br/><br/> A mashup of .... <br/><br/> 
         </p>

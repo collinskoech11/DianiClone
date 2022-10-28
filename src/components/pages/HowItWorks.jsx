@@ -2,13 +2,14 @@ import React, {useState, useEffect} from 'react'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 // import { Carousel } from 'react-responsive-carousel';
 import "../css/carousel.css"
-import {cryptobtn, credit, paypal, one, two, three, four} from "../icons"
+import {cryptobtn, credit, paypal, one, two, three, four, airtel} from "../icons"
 import toast from "react-hot-toast"
 import axios from "axios"
 import {CopyToClipboard} from "react-copy-to-clipboard"
 import {Modal} from "../Modal/Modal"
 import {CopyToClipboardIcon} from "../Modal/CopyToClipboardIcon"
 import {UnstoppableDomain} from "../Modal/UnstoppableDomain"
+import AirtelMon from "../assets/airtellogo.png"
 
 
 function HowItWorks() {
@@ -106,7 +107,7 @@ function HowItWorks() {
                     {credit}<h4>MTN MoMo </h4>
                 </div>
                 <div className="payment-item">
-                    {paypal}<h4> Airtel Money</h4>
+                    <img src={AirtelMon} width="20px" alt="airtel money"/><h4> Airtel Money</h4>
                 </div>
             </div>
         </div>

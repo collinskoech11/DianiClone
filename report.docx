@@ -1,0 +1,1754 @@
+* commit aaa0885 (HEAD -> jingerBranch, origin/jingerBranch)
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Thu Oct 27 15:15:48 2022 +0300
+| 
+|     payment options update
+| 
+* commit 3dacbed
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Wed Oct 12 13:25:47 2022 +0300
+| 
+|     update changes
+| 
+* commit 67a1b98
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Tue Oct 11 16:47:07 2022 +0300
+| 
+|     install btn
+| 
+* commit 09fe854
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Mon Oct 10 10:31:59 2022 +0300
+| 
+|     update interractive btn
+| 
+* commit 46d07c6
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Sun Oct 9 21:58:58 2022 +0300
+| 
+|     update interractive btn
+| 
+* commit af3b020
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Sun Oct 9 12:35:34 2022 +0300
+| 
+|     update
+| 
+* commit ac7cad5
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Sun Oct 9 01:05:54 2022 +0300
+| 
+|     update icons
+| 
+* commit 52d1f14
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Sun Oct 9 00:20:03 2022 +0300
+| 
+|     update modal
+| 
+* commit eb71e7f
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Sun Oct 9 00:17:59 2022 +0300
+| 
+|     update modal
+| 
+* commit 477fa79
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Sat Oct 8 23:59:24 2022 +0300
+| 
+|     upadte install btn
+| 
+* commit a5b1902
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Sat Oct 8 23:00:42 2022 +0300
+| 
+|     upadte JingerApp
+| 
+* commit 22c8aa4
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Sat Oct 8 22:59:22 2022 +0300
+| 
+|     upadte JingerApp
+| 
+* commit 9e09379
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Sat Oct 8 22:49:09 2022 +0300
+| 
+|     upadte JingerApp
+| 
+* commit cdd3f2c
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Fri Oct 7 18:06:02 2022 +0300
+| 
+|     Theme update
+| 
+* commit 1b0bb12
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Fri Oct 7 17:39:37 2022 +0300
+| 
+|     update version
+|   
+| * commit 6222114 (origin/goombay, goombay)
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Oct 25 18:58:53 2022 +0300
+| | 
+| |     update messages
+| | 
+| * commit 321f42d
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Oct 25 17:29:20 2022 +0300
+| | 
+| |     update img import
+| | 
+| * commit 99c14c1
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Oct 25 17:28:01 2022 +0300
+| | 
+| |     update phone img
+| | 
+| * commit d1ef4f7
+| | Author: nicolaskiprop <yegonicholas@gmail.com>
+| | Date:   Thu Oct 13 21:05:14 2022 +0300
+| | 
+| |     logo on mobile and big screen
+| | 
+| * commit 208423b
+| | Author: nicolaskiprop <yegonicholas@gmail.com>
+| | Date:   Thu Oct 13 20:06:49 2022 +0300
+| | 
+| |     logo
+| | 
+| * commit c756937
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Wed Oct 12 12:59:13 2022 +0300
+| | 
+| |     update popular section
+| | 
+| * commit ea5eea7
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Oct 11 16:43:56 2022 +0300
+| | 
+| |     install btn update
+| | 
+| * commit 87d74ad
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Oct 11 13:43:19 2022 +0300
+| | 
+| |     bn refresh
+| | 
+| * commit f0ac597
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Mon Oct 10 15:07:19 2022 +0300
+| | 
+| |     refactor
+| | 
+| * commit 2fd2a25
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Sun Oct 9 21:07:56 2022 +0300
+| | 
+| |     update lalo modal
+| | 
+| * commit a1faa12
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Sun Oct 9 01:04:55 2022 +0300
+| | 
+| |     icons update
+| | 
+| * commit 8bca5b4
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Sat Oct 8 23:55:49 2022 +0300
+| | 
+| |     fs
+| | 
+| * commit 1feada4
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Sat Oct 8 23:13:34 2022 +0300
+| | 
+| |     upadte install btn
+| | 
+| * commit f0ad64c
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Sat Oct 8 21:50:22 2022 +0300
+| | 
+| |     update ui
+| | 
+| * commit a39682c
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Sat Oct 8 16:39:03 2022 +0300
+| | 
+| |     update
+| | 
+| * commit ef398a5
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Fri Oct 7 20:24:45 2022 +0300
+| | 
+| |     update views
+| | 
+| * commit d72a30d
+|/  Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+|   Date:   Fri Oct 7 20:16:00 2022 +0300
+|   
+|       wallet connector update
+| 
+* commit 7b7876f (origin/jingerApp)
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Wed Oct 5 12:42:00 2022 +0300
+| 
+|     update footer
+| 
+* commit cb3ac65
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Tue Oct 4 19:10:22 2022 +0300
+| 
+|     update goombay
+| 
+* commit 4d85414
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Tue Oct 4 19:03:36 2022 +0300
+| 
+|     update goombay
+| 
+* commit a954757
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Tue Oct 4 17:43:23 2022 +0300
+| 
+|     update goombay ui
+|   
+| * commit b900d8e (origin/zanziapp)
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Thu Oct 13 20:37:33 2022 +0300
+| | 
+| |     update slogan
+| | 
+| * commit 39f1a43
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Wed Oct 12 14:30:22 2022 +0300
+| | 
+| |     update zanzi ui
+| | 
+| * commit f5065d5
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Sun Oct 2 16:22:40 2022 +0300
+| | 
+| |     update navigation
+| | 
+| * commit 639ab80
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Sun Oct 2 16:17:20 2022 +0300
+| | 
+| |     update navigation
+| | 
+| * commit bdb6947
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Sun Oct 2 16:16:14 2022 +0300
+| | 
+| |     update navigation
+| | 
+| * commit 3999d4a
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Sun Oct 2 15:10:41 2022 +0300
+| | 
+| |     update home content
+| | 
+| * commit 5ec2b47
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Sun Oct 2 14:43:34 2022 +0300
+| | 
+| |     update package.json
+| | 
+| * commit a2f8ea8
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Sun Oct 2 14:24:47 2022 +0300
+| | 
+| |     update footer
+| | 
+| * commit 2f709b2
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Sat Oct 1 16:08:19 2022 +0300
+| | 
+| |     update zanzilogo
+| | 
+| * commit dc33fe1
+|/  Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+|   Date:   Sat Oct 1 16:04:23 2022 +0300
+|   
+|       update styling
+| 
+* commit b7fee85
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Thu Sep 29 13:12:00 2022 +0300
+| 
+|     added UNstoppable domains
+| 
+* commit 85781aa
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Wed Sep 28 12:17:18 2022 +0300
+| 
+|     footer text update
+| 
+* commit 225eb7d
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Tue Sep 27 19:05:43 2022 +0300
+| 
+|     item margin fix
+| 
+* commit 902ad08
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Tue Sep 27 15:48:28 2022 +0300
+| 
+|     update site icon
+| 
+* commit ad27366
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Tue Sep 27 15:34:44 2022 +0300
+| 
+|     rm service worker
+| 
+* commit d93e481
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Tue Sep 27 14:44:47 2022 +0300
+| 
+|     update index
+| 
+* commit 1e86be2
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Tue Sep 27 13:29:38 2022 +0300
+| 
+|     rm remove web vitals
+| 
+* commit 4003447
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Tue Sep 27 13:21:10 2022 +0300
+| 
+|     coming soon modal
+| 
+* commit 7de25ba
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Mon Sep 26 16:38:57 2022 +0300
+| 
+|     goombay update
+| 
+* commit c598954
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Mon Sep 26 16:32:28 2022 +0300
+| 
+|     goombay update
+| 
+* commit 9803915
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Mon Sep 26 16:28:29 2022 +0300
+| 
+|     goombay update
+| 
+* commit 15add49
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Mon Sep 26 15:26:06 2022 +0300
+| 
+|     rm toaster
+| 
+* commit 6067381
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Mon Sep 26 13:47:36 2022 +0300
+| 
+|     update activities button
+| 
+* commit c5a0acb
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Mon Sep 26 13:25:08 2022 +0300
+| 
+|     update toast
+| 
+* commit b395bb5
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Mon Sep 26 13:08:57 2022 +0300
+| 
+|     update toast
+| 
+* commit 42f1fa6
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Mon Sep 26 13:00:37 2022 +0300
+| 
+|     update toast
+| 
+* commit 34f68e7
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Mon Sep 26 12:47:31 2022 +0300
+| 
+|     update toast
+| 
+* commit dfdc2d0
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Mon Sep 26 11:46:38 2022 +0300
+| 
+|     switched to imperial metric system
+| 
+* commit 7003752
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Sun Sep 25 10:37:00 2022 +0300
+| 
+|     active styling upate
+| 
+* commit 3fa4c5b
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Sat Sep 24 20:37:04 2022 +0300
+| 
+|     act-container overflow-hidden
+| 
+* commit b5f810b
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Sat Sep 24 19:41:59 2022 +0300
+| 
+|     update package.json
+| 
+* commit 993a5c8
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Sat Sep 24 19:37:42 2022 +0300
+| 
+|     updated package.json
+| 
+* commit 5069069
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Sat Sep 24 09:50:58 2022 +0300
+| 
+|     update bahamas timezone
+| 
+* commit a464497
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Sat Sep 24 09:43:50 2022 +0300
+| 
+|     update navlink
+| 
+* commit 3901dc0
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Fri Sep 23 20:05:23 2022 +0300
+| 
+|     update navlink
+| 
+* commit 2516429
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Fri Sep 23 18:36:34 2022 +0300
+| 
+|     content update
+| 
+* commit 130cf69
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Fri Sep 23 18:10:57 2022 +0300
+| 
+|     content update
+| 
+* commit 7b7ba52
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Fri Sep 23 14:24:08 2022 +0300
+| 
+|     refresh ui
+| 
+* commit 0a394d2
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Fri Sep 23 14:21:34 2022 +0300
+| 
+|     refresh ui
+|   
+| * commit 85d09bc (origin/master, origin/HEAD, master)
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Wed Oct 12 18:24:23 2022 +0300
+| | 
+| |     we accept font size
+| | 
+| * commit df50e60
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Wed Oct 12 12:26:45 2022 +0300
+| | 
+| |     buy now delivered now alignment update
+| | 
+| * commit 9a1599a
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Wed Oct 12 12:05:22 2022 +0300
+| | 
+| |     buy now delivered now alignment update
+| | 
+| * commit 1ea4a1d
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Oct 11 16:30:26 2022 +0300
+| | 
+| |     styles
+| | 
+| * commit 29c0caa
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Oct 11 16:09:54 2022 +0300
+| | 
+| |     alignment update
+| | 
+| * commit 0a76da4
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Oct 11 15:54:09 2022 +0300
+| | 
+| |     update install btn
+| | 
+| * commit eb09abe
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Oct 11 15:46:58 2022 +0300
+| | 
+| |     update install btn
+| | 
+| * commit ed43e1b
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Oct 11 15:21:03 2022 +0300
+| | 
+| |     install btn
+| | 
+| * commit 9b82bb7
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Oct 11 15:19:14 2022 +0300
+| | 
+| |     install btn
+| | 
+| * commit 6550869
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Mon Oct 10 18:11:34 2022 +0300
+| | 
+| |     update
+| | 
+| * commit 08aa49f
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Sun Oct 9 20:36:38 2022 +0300
+| | 
+| |     update
+| | 
+| * commit 8dd82be
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Sun Oct 9 14:10:19 2022 +0300
+| | 
+| |     update pending icons
+| | 
+| * commit 92446d3
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Sun Oct 9 14:05:22 2022 +0300
+| | 
+| |     update pending icons
+| | 
+| * commit 0494726
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Sun Oct 9 01:03:21 2022 +0300
+| | 
+| |     send icon placeholder
+| | 
+| * commit 4b9829e
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Sun Oct 9 01:02:13 2022 +0300
+| | 
+| |     update dependencies
+| | 
+| * commit 4182072
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Sun Oct 9 01:01:28 2022 +0300
+| | 
+| |     send icon placeeholder
+| | 
+| * commit db02a20
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Sun Oct 9 00:53:23 2022 +0300
+| | 
+| |     send icon placeeholder
+| | 
+| * commit de4daeb
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Sun Oct 9 00:28:27 2022 +0300
+| | 
+| |     update Modal
+| | 
+| * commit 7fe76f2
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Sat Oct 8 23:08:33 2022 +0300
+| | 
+| |     upadte install btn
+| | 
+| * commit ded9ca7
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Sat Oct 8 21:01:29 2022 +0300
+| | 
+| |     update
+| | 
+| * commit 90afe3c
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Sat Oct 8 17:43:52 2022 +0300
+| | 
+| |     update install button
+| | 
+| * commit 09a6c7d
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Fri Oct 7 19:55:56 2022 +0300
+| | 
+| |     build
+| | 
+| * commit 278c4bf
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Fri Oct 7 19:29:58 2022 +0300
+| | 
+| |     message update
+| | 
+| * commit f9452d4
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Fri Oct 7 19:28:35 2022 +0300
+| | 
+| |     message update
+| | 
+| * commit ac40ba7
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Fri Oct 7 19:28:09 2022 +0300
+| | 
+| |     message update
+| | 
+| * commit 4bb84f3
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Fri Oct 7 19:27:23 2022 +0300
+| | 
+| |     message update
+| | 
+| * commit 8a2a6f6
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Fri Oct 7 19:24:47 2022 +0300
+| | 
+| |     message update
+| | 
+| * commit 36b2a42
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Fri Oct 7 19:13:10 2022 +0300
+| | 
+| |     update messages
+| | 
+| * commit d11b240
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Fri Oct 7 14:29:57 2022 +0300
+| | 
+| |     support PWA
+| | 
+| * commit 812e112
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Fri Oct 7 13:01:57 2022 +0300
+| | 
+| |     updae wallet connection
+| | 
+| * commit 7779090
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Fri Oct 7 12:22:53 2022 +0300
+| | 
+| |     update connect
+| | 
+| * commit 3d6182c
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Fri Oct 7 11:29:55 2022 +0300
+| | 
+| |     rainbowkit wallet connect
+| | 
+| * commit 98fb88c
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Thu Oct 6 18:05:01 2022 +0300
+| | 
+| |     update type animation
+| | 
+| * commit 2bbb07f
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Thu Oct 6 16:12:21 2022 +0300
+| | 
+| |     update modal
+| | 
+| * commit 87574d3
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Thu Oct 6 15:05:25 2022 +0300
+| | 
+| |     preloader
+| | 
+| * commit 0fbc8da
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Wed Oct 5 19:47:36 2022 +0300
+| | 
+| |     update modal
+| | 
+| * commit c6f59d2
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Wed Oct 5 18:44:32 2022 +0300
+| | 
+| |     update home categories
+| | 
+| * commit 5143b66
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Wed Oct 5 18:18:57 2022 +0300
+| | 
+| |     update home categories
+| | 
+| * commit 279eac3
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Wed Oct 5 14:53:56 2022 +0300
+| | 
+| |     update site
+| | 
+| * commit 2a26639
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Wed Oct 5 13:50:35 2022 +0300
+| | 
+| |     Modal Update
+| | 
+| * commit 800dc02
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Wed Oct 5 13:10:00 2022 +0300
+| | 
+| |     Modal Update
+| | 
+| * commit 3f797b0
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Wed Oct 5 13:06:12 2022 +0300
+| | 
+| |     Modal Update
+| | 
+| * commit 2f3cfcb
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Wed Oct 5 13:04:29 2022 +0300
+| | 
+| |     update close btn
+| | 
+| * commit b9583c6
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Wed Oct 5 11:33:51 2022 +0300
+| | 
+| |     wallet connection checks
+| | 
+| * commit 17d44ae
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Oct 4 20:46:23 2022 +0300
+| | 
+| |     wallet connection
+| | 
+| * commit e2e87f2
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Oct 4 18:49:39 2022 +0300
+| | 
+| |     update
+| | 
+| * commit b13234d
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Oct 4 16:25:12 2022 +0300
+| | 
+| |     alignment update
+| | 
+| * commit 31909e1
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Oct 4 16:16:50 2022 +0300
+| | 
+| |     alignment update
+| | 
+| * commit 06cb212
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Oct 4 14:08:07 2022 +0300
+| | 
+| |     update icons
+| | 
+| * commit cf348af
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Oct 4 13:48:21 2022 +0300
+| | 
+| |     update icons
+| | 
+| * commit 8a56474
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Oct 4 13:44:55 2022 +0300
+| | 
+| |     update icons
+| | 
+| * commit a2d9297
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Oct 4 13:33:58 2022 +0300
+| | 
+| |     update icons
+| | 
+| * commit cf6ccd5
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Oct 4 13:30:11 2022 +0300
+| | 
+| |     update icons
+| | 
+| * commit e7c396e
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Oct 4 13:27:28 2022 +0300
+| | 
+| |     update icons
+| | 
+| * commit 98fb10f
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Oct 4 13:24:37 2022 +0300
+| | 
+| |     icon alignment
+| | 
+| * commit 0cf5917
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Oct 4 12:57:35 2022 +0300
+| | 
+| |     icon alignment
+| | 
+| * commit d821d40
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Oct 4 12:34:47 2022 +0300
+| | 
+| |     icon alignment
+| | 
+| * commit 24eef98
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Oct 4 12:15:57 2022 +0300
+| | 
+| |     icon alignment
+| | 
+| * commit 48c5f2b
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Oct 4 12:11:49 2022 +0300
+| | 
+| |     icon alignment
+| | 
+| * commit 2263556
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Oct 4 12:03:34 2022 +0300
+| | 
+| |     update Wallet connect
+| | 
+| * commit b16c398
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Oct 4 11:42:46 2022 +0300
+| | 
+| |     update Wallet connect
+| | 
+| * commit c1744fe
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Oct 4 08:24:49 2022 +0300
+| | 
+| |     production deploy
+| | 
+| * commit 67ad290
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Mon Oct 3 23:49:34 2022 +0300
+| | 
+| |     clean Up UI
+| | 
+| * commit e67627c
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Mon Oct 3 19:59:01 2022 +0300
+| | 
+| |     update description modal
+| | 
+| * commit 4796821
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Mon Oct 3 19:48:41 2022 +0300
+| | 
+| |     update live icon
+| | 
+| * commit 9b1ee0c
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Mon Oct 3 19:05:22 2022 +0300
+| | 
+| |     update lalo logo
+| |   
+| *   commit 0f22619
+| |\  Merge: 38b2d08 b0dffed
+| | | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | | Date:   Mon Oct 3 18:31:19 2022 +0300
+| | | 
+| | |     merge
+| | | 
+| | * commit b0dffed
+| | | Author: domambia <omambiadauglous@gmail.com>
+| | | Date:   Mon Oct 3 18:31:18 2022 +0300
+| | | 
+| | |     Fix  pop up
+| | | 
+| * | commit 38b2d08
+| |/  Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| |   Date:   Mon Oct 3 18:31:01 2022 +0300
+| |   
+| |       merge
+| | 
+| * commit 86ed689
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Mon Oct 3 18:06:51 2022 +0300
+| | 
+| |     footer update
+| | 
+| * commit cd1de6c
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Mon Oct 3 17:16:58 2022 +0300
+| | 
+| |     update description modal
+| | 
+| * commit f4c5f2d
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Mon Oct 3 14:58:31 2022 +0300
+| | 
+| |     update
+| | 
+| * commit 8de9ea4
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Mon Oct 3 13:35:19 2022 +0300
+| | 
+| |     update
+| | 
+| * commit 81236dd
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Mon Oct 3 12:56:37 2022 +0300
+| | 
+| |     update pop
+| | 
+| * commit c682918
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Mon Oct 3 11:02:27 2022 +0300
+| | 
+| |     update popup
+| | 
+| * commit 383003c
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Mon Oct 3 10:59:54 2022 +0300
+| | 
+| |     first pop
+| | 
+| * commit f3225e0
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Sun Oct 2 16:40:19 2022 +0300
+| | 
+| |     update footer
+| | 
+| * commit 9a9131b
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Sun Oct 2 16:12:38 2022 +0300
+| | 
+| |     update
+| | 
+| * commit a10961b
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Sun Oct 2 14:56:08 2022 +0300
+| | 
+| |     popup timeout
+| | 
+| * commit 3c51015
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Sun Oct 2 14:21:43 2022 +0300
+| | 
+| |     update
+| | 
+| * commit 2722e76
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Sat Oct 1 13:36:33 2022 +0300
+| | 
+| |     nav update
+| | 
+| * commit ec8661d
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Sat Oct 1 13:18:57 2022 +0300
+| | 
+| |     update default Nav
+| | 
+| * commit 20ac397
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Fri Sep 30 15:15:00 2022 +0300
+| | 
+| |     update favicon
+| | 
+| * commit c2c638f
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Fri Sep 30 14:52:38 2022 +0300
+| | 
+| |     update favicon
+| | 
+| * commit 9505fec
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Fri Sep 30 14:50:45 2022 +0300
+| | 
+| |     update rates page
+| | 
+| * commit 5d541c0
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Fri Sep 30 14:06:46 2022 +0300
+| | 
+| |     reviews page clean up
+| | 
+| * commit 4dd8a8f
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Thu Sep 29 19:59:24 2022 +0300
+| | 
+| |     update review page
+| | 
+| * commit f3c76d5
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Thu Sep 29 17:20:23 2022 +0300
+| | 
+| |     star rating cleanup
+| | 
+| * commit a9d54f8
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Thu Sep 29 12:07:58 2022 +0300
+| | 
+| |     update footer
+| | 
+| * commit 71e5dee
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Wed Sep 28 20:08:01 2022 +0300
+| | 
+| |     update images
+| | 
+| * commit 933c536
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Wed Sep 28 19:21:02 2022 +0300
+| | 
+| |     clear console warnings
+| | 
+| * commit 0acfe67
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Wed Sep 28 19:18:54 2022 +0300
+| | 
+| |     vip + wellness update
+| |   
+| *   commit a89a7fc
+| |\  Merge: b857244 08f9c7b
+| | | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | | Date:   Wed Sep 28 19:10:07 2022 +0300
+| | | 
+| | |     merge
+| | | 
+| | * commit 08f9c7b
+| | | Author: domambia <omambiadauglous@gmail.com>
+| | | Date:   Wed Sep 28 19:09:00 2022 +0300
+| | | 
+| | |     remove css flex-start warning
+| | | 
+| | * commit 9c65b58
+| | | Author: domambia <omambiadauglous@gmail.com>
+| | | Date:   Wed Sep 28 19:07:15 2022 +0300
+| | | 
+| | |     Removed type animation warnings
+| | |   
+| | *   commit 5b5e4f9
+| | |\  Merge: 0ac1899 5f795bd
+| | | | Author: domambia <omambiadauglous@gmail.com>
+| | | | Date:   Wed Sep 28 18:55:59 2022 +0300
+| | | | 
+| | | |     Merge
+| | | | 
+| | * | commit 0ac1899
+| | | | Author: domambia <omambiadauglous@gmail.com>
+| | | | Date:   Wed Sep 28 18:52:10 2022 +0300
+| | | | 
+| | | |     Integrate unstoppable domains
+| | | | 
+| * | | commit b857244
+| | |/  Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| |/|   Date:   Wed Sep 28 19:09:10 2022 +0300
+| | |   
+| | |       rating stars alignment
+| | | 
+| * | commit 5f795bd
+| |/  Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| |   Date:   Wed Sep 28 18:00:00 2022 +0300
+| |   
+| |       rating screen
+| | 
+| * commit 7a30fc3
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Wed Sep 28 14:21:37 2022 +0300
+| | 
+| |     rating screen
+| | 
+| * commit b22780e
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Wed Sep 28 12:16:38 2022 +0300
+| | 
+| |     footer text update
+| | 
+| * commit 3efbcbf
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Sep 27 20:24:06 2022 +0300
+| | 
+| |     item margin fix
+| | 
+| * commit 7532fbf
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Sep 27 19:06:29 2022 +0300
+| | 
+| |     item margin fix
+| | 
+| * commit 693934f
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Sep 27 19:04:40 2022 +0300
+| | 
+| |     item margin fix
+| | 
+| * commit 913fea3
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Sep 27 18:45:30 2022 +0300
+| | 
+| |     item margin fix
+| | 
+| * commit 6cce054
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Sep 27 15:39:49 2022 +0300
+| | 
+| |     update site description
+| | 
+| * commit 2e9a4ff
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Sep 27 15:32:20 2022 +0300
+| | 
+| |     delete base.html
+| | 
+| * commit 734b31f
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Sep 27 15:28:23 2022 +0300
+| | 
+| |     clear cached data~
+| | 
+| * commit 777f296
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Sep 27 15:27:10 2022 +0300
+| | 
+| |     clear cached data~
+| | 
+| * commit a2e146c
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Sep 27 15:24:46 2022 +0300
+| | 
+| |     clear cached data~
+| | 
+| * commit 4405df0
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Sep 27 15:15:58 2022 +0300
+| | 
+| |     clear cached data~
+| | 
+| * commit 1fa7652
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Sep 27 15:07:54 2022 +0300
+| | 
+| |     clear cached data~
+| | 
+| * commit a8f54f4
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Sep 27 14:50:53 2022 +0300
+| | 
+| |     update popup color
+| | 
+| * commit 189b70c
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Sep 27 14:45:27 2022 +0300
+| | 
+| |     update popup color
+| | 
+| * commit b24f458
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Sep 27 14:11:02 2022 +0300
+| | 
+| |     rm service worker registration
+| | 
+| * commit 4f910ae
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Sep 27 14:09:09 2022 +0300
+| | 
+| |     rm service worker registration
+| | 
+| * commit b747fca
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Sep 27 14:06:39 2022 +0300
+| | 
+| |     rm service worker registration
+| | 
+| * commit f168b91
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Sep 27 13:59:38 2022 +0300
+| | 
+| |     rm service worker registration
+| | 
+| * commit 33ca6a6
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Sep 27 13:54:58 2022 +0300
+| | 
+| |     rm  webvitals
+| | 
+| * commit 3be6e55
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Tue Sep 27 13:44:37 2022 +0300
+| | 
+| |     rm  webvitals
+| | 
+| * commit ad04095
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Mon Sep 26 16:44:29 2022 +0300
+| | 
+| |     hide toaster
+| | 
+| * commit 9aa2f49
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Mon Sep 26 16:43:10 2022 +0300
+| | 
+| |     hide toaster
+| | 
+| * commit 7f44e46
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Mon Sep 26 16:12:21 2022 +0300
+| | 
+| |     rm toaster
+| | 
+| * commit 041849d
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Mon Sep 26 13:44:39 2022 +0300
+| | 
+| |     update
+| | 
+| * commit 8c55587
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Mon Sep 26 11:57:48 2022 +0300
+| | 
+| |     update activities button
+| | 
+| * commit 433daeb
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Mon Sep 26 11:41:35 2022 +0300
+| | 
+| |     update styles
+| | 
+| * commit c7f62d3
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Mon Sep 26 11:23:39 2022 +0300
+| | 
+| |     rm hndlesubmit
+| | 
+| * commit 89923f3
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Mon Sep 26 01:10:28 2022 +0300
+| | 
+| |     update mobile-nav-margin
+| | 
+| * commit c813f41
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Sun Sep 25 23:50:17 2022 +0300
+| | 
+| |     update mobile-nav-margin
+| | 
+| * commit 4c8629f
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Sat Sep 24 20:26:01 2022 +0300
+| | 
+| |     activity container hidden ooverflow
+| | 
+| * commit a7b9782
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Sat Sep 24 19:43:07 2022 +0300
+| | 
+| |     update packag.json
+| | 
+| * commit 06cb3b3
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Sat Sep 24 09:41:28 2022 +0300
+| | 
+| |     update navlink
+| | 
+| * commit d685e4d
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Fri Sep 23 20:07:49 2022 +0300
+| | 
+| |     uodate navlink
+| | 
+| * commit dc5c3be
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Fri Sep 23 19:47:36 2022 +0300
+| | 
+| |     compressed build
+| | 
+| * commit b8c3a98
+| | Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| | Date:   Fri Sep 23 19:44:28 2022 +0300
+| | 
+| |     active class
+| | 
+| * commit 73b3ba6
+|/  Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+|   Date:   Fri Sep 23 18:13:37 2022 +0300
+|   
+|       content update
+| 
+* commit caa0633
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Fri Sep 23 13:29:23 2022 +0300
+| 
+|     messages
+| 
+* commit f24332a
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Fri Sep 23 13:19:49 2022 +0300
+| 
+|     update icons
+| 
+* commit 31d5940
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Fri Sep 23 13:04:43 2022 +0300
+| 
+|     messages cleanup
+| 
+* commit 1b1c7cf
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Fri Sep 23 11:28:32 2022 +0300
+| 
+|     temperature on nav
+| 
+* commit 5357dbf
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Thu Sep 22 22:10:12 2022 +0300
+| 
+|     Update footer.css
+| 
+* commit eb0db3d
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Thu Sep 22 20:30:34 2022 +0300
+| 
+|     upate weather component
+| 
+* commit ae0f55e
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Thu Sep 22 19:09:00 2022 +0300
+| 
+|     update
+| 
+* commit 5b13b45
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Thu Sep 22 18:58:26 2022 +0300
+| 
+|     home link
+| 
+* commit 04dc0ec
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Thu Sep 22 12:44:45 2022 +0300
+| 
+|     update categories
+| 
+* commit ce31c45
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Wed Sep 21 18:46:52 2022 +0300
+| 
+|     mobile nav update
+| 
+* commit db276a3
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Wed Sep 21 17:00:15 2022 +0300
+| 
+|     update credit
+| 
+* commit 33b1f6b
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Wed Sep 21 16:54:07 2022 +0300
+| 
+|     alignment update
+| 
+* commit 66083b7 (origin/development)
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Wed Sep 21 13:12:46 2022 +0300
+| 
+|     mobile nav update
+| 
+* commit 7f99d39
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Wed Sep 21 12:29:20 2022 +0300
+| 
+|     update how-it-works
+| 
+* commit 5e4d271
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Wed Sep 21 11:54:46 2022 +0300
+| 
+|     update favicon
+| 
+* commit 6b6491e
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Wed Sep 21 11:11:18 2022 +0300
+| 
+|     favicon update
+| 
+* commit 7157fbd
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Wed Sep 21 10:58:34 2022 +0300
+| 
+|     footer update
+| 
+* commit f4c3f26
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Wed Sep 21 10:56:52 2022 +0300
+| 
+|     svg fix
+| 
+* commit 8991268
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Wed Sep 21 00:41:21 2022 +0300
+| 
+|     background-update
+| 
+* commit 003e95c
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Wed Sep 21 00:30:05 2022 +0300
+| 
+|     update ui
+| 
+* commit 6dbc327
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Tue Sep 20 19:07:59 2022 +0300
+| 
+|     add to home button
+| 
+* commit 97a7d05
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Tue Sep 20 19:07:28 2022 +0300
+| 
+|     add to home button
+| 
+* commit 226d878
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Tue Sep 20 19:06:10 2022 +0300
+| 
+|     add to home button
+| 
+* commit 7295cb3
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Tue Sep 20 18:45:43 2022 +0300
+| 
+|     add to home button
+| 
+* commit d7e6e09
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Tue Sep 20 18:39:31 2022 +0300
+| 
+|     add to home button
+| 
+* commit dbffbc6
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Tue Sep 20 18:37:59 2022 +0300
+| 
+|     add to home button
+| 
+* commit f99388c
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Tue Sep 20 18:27:36 2022 +0300
+| 
+|     chatbot
+| 
+* commit d81d587
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Tue Sep 20 17:57:18 2022 +0300
+| 
+|     chatbot
+| 
+* commit c92b6ab
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Tue Sep 20 14:37:32 2022 +0300
+| 
+|     how-it-works screen
+| 
+* commit 79ebf16
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Tue Sep 20 14:33:20 2022 +0300
+| 
+|     how-it-works screen
+| 
+* commit b345a66
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Tue Sep 20 12:23:31 2022 +0300
+| 
+|     progress update
+| 
+* commit a00e901
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Tue Sep 20 00:16:43 2022 +0300
+| 
+|     deployment update
+| 
+* commit b0ab865
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Tue Sep 20 00:12:18 2022 +0300
+| 
+|     deployment update
+| 
+* commit 835567a
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Mon Sep 19 23:57:31 2022 +0300
+| 
+|     update VIP
+| 
+* commit 2d397eb
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Mon Sep 19 23:37:00 2022 +0300
+| 
+|     update styling
+| 
+* commit 902b88d
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Mon Sep 19 23:11:49 2022 +0300
+| 
+|     deployment update
+| 
+* commit e24241d
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Mon Sep 19 22:53:25 2022 +0300
+| 
+|     deployment update
+| 
+* commit 34d5d29
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Mon Sep 19 22:38:39 2022 +0300
+| 
+|     deployment update
+| 
+* commit b756686
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Mon Sep 19 22:07:07 2022 +0300
+| 
+|     update styling
+| 
+* commit 47b9262
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Mon Sep 19 21:52:40 2022 +0300
+| 
+|     update styling
+| 
+* commit 69b7c60
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Mon Sep 19 21:34:35 2022 +0300
+| 
+|     update styling
+| 
+* commit 3d986a9
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Mon Sep 19 21:25:52 2022 +0300
+| 
+|     messages update
+| 
+* commit 4450aaf
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Mon Sep 19 21:11:27 2022 +0300
+| 
+|     update package.json
+| 
+* commit a60d775
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Mon Sep 19 21:09:16 2022 +0300
+| 
+|     update package.json
+| 
+* commit ce60c0a
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Mon Sep 19 21:05:24 2022 +0300
+| 
+|     update
+| 
+* commit 365b562
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Mon Sep 19 21:03:57 2022 +0300
+| 
+|     update manifest.json
+| 
+* commit 2a73831
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Mon Sep 19 21:02:36 2022 +0300
+| 
+|     deployment update
+| 
+* commit 78e53a7
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Mon Sep 19 18:42:38 2022 +0300
+| 
+|     update variable
+| 
+* commit 650af6f
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Mon Sep 19 18:30:25 2022 +0300
+| 
+|     deployment update
+| 
+* commit 8d6d19f
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Mon Sep 19 16:39:01 2022 +0300
+| 
+|     update
+| 
+* commit ba4c479
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Mon Sep 19 14:57:09 2022 +0300
+| 
+|     weather button  repossition
+| 
+* commit 1427a76
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Mon Sep 19 14:37:59 2022 +0300
+| 
+|     update
+| 
+* commit 8324372
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Mon Sep 19 14:25:25 2022 +0300
+| 
+|     update weather icon
+| 
+* commit b92aebe
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Sun Sep 18 19:49:17 2022 +0300
+| 
+|     activities tab fix
+| 
+* commit 2f2aed0
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Sun Sep 18 00:20:33 2022 +0300
+| 
+|     revert header
+| 
+* commit b684724
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Sun Sep 18 00:02:15 2022 +0300
+| 
+|     install PWA
+| 
+* commit b9af990
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Sat Sep 17 23:41:40 2022 +0300
+| 
+|     carousel +  react-whatsapp
+| 
+* commit ed5cf8d
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Sat Sep 17 08:30:19 2022 +0300
+| 
+|     VIP and activities update
+| 
+* commit e2351af
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Fri Sep 16 20:53:29 2022 +0300
+| 
+|     typo
+| 
+* commit 5b4c3c4
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Fri Sep 16 20:03:37 2022 +0300
+| 
+|     redirects
+| 
+* commit 405ee94
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Fri Sep 16 19:57:01 2022 +0300
+| 
+|     styling update:
+| 
+* commit 2e0dc5e
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Thu Sep 15 20:32:19 2022 +0300
+| 
+|     food
+| 
+* commit faee046
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Thu Sep 15 20:29:02 2022 +0300
+| 
+|     Update Home.jsx
+| 
+* commit e8f68d2
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Thu Sep 15 20:21:40 2022 +0300
+| 
+|     food
+| 
+* commit 498cea2
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Thu Sep 15 20:15:01 2022 +0300
+| 
+|     typo
+| 
+* commit 98e3bf1
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Thu Sep 15 20:08:31 2022 +0300
+| 
+|     typo
+| 
+* commit 4b81c56
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Thu Sep 15 20:05:41 2022 +0300
+| 
+|     typo
+| 
+* commit dbc74f2
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Thu Sep 15 20:03:18 2022 +0300
+| 
+|     animation speed
+| 
+* commit c49ba24
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Thu Sep 15 20:00:18 2022 +0300
+| 
+|     emoji
+| 
+* commit 5e88fa2
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Thu Sep 15 19:43:55 2022 +0300
+| 
+|     update text animation
+| 
+* commit 425ca3e
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Thu Sep 15 18:58:10 2022 +0300
+| 
+|     added icons
+| 
+* commit 806aed8
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Thu Sep 15 17:58:12 2022 +0300
+| 
+|     PWA update
+| 
+* commit c24d1c4
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Thu Sep 15 14:46:28 2022 +0300
+| 
+|     transition update
+| 
+* commit 98d6724
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Thu Sep 15 12:32:14 2022 +0300
+| 
+|     transition update
+| 
+* commit 1e5161c
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Thu Sep 15 12:03:54 2022 +0300
+| 
+|     frontend deploymanr update
+| 
+* commit 49e25b6
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Wed Sep 14 20:12:22 2022 +0300
+| 
+|     transform update
+| 
+* commit 458d4fd
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Wed Sep 14 18:00:39 2022 +0300
+| 
+|     margin update
+| 
+* commit 6550c7f
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Wed Sep 14 17:53:54 2022 +0300
+| 
+|     margin update
+| 
+* commit f3695cc
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Wed Sep 14 17:44:20 2022 +0300
+| 
+|     close position update
+| 
+* commit 21eea78
+| Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+| Date:   Wed Sep 14 17:38:03 2022 +0300
+| 
+|     stylng update
+| 
+* commit c0b71ec
+  Author: Collins Koech <35452377+collinskoech11@users.noreply.github.com>
+  Date:   Wed Sep 14 15:16:36 2022 +0300
+  
+      initial commit
