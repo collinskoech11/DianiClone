@@ -52,7 +52,7 @@ function Home() {
   const data = [
     {
       name: "Groceries 24/7",
-      number: "+256 706 909 163",
+      number: "+256706909163",
       message: "Hello DianiApp 😊 I need groceries 🧅",
       className: "whatsapp",
       image: groceries,
@@ -66,7 +66,7 @@ function Home() {
       <h4 style={{marginTop:"30px"}}>INSTANT GO {rocket}</h4>
       <div className="Tabs-container">
       <ReactWhatsapp
-            number={"+256 706 909 163"}
+            number={"+256706909163"}
             message={"Hello DianiApp 😊 I need Food / drinks 📦"}
             className="whatsapp"
           >
@@ -91,7 +91,7 @@ function Home() {
          
        {/* <h4>RENT A {rocket}</h4> */}
        <ReactWhatsapp
-              number="+256 706 909 163"
+              number="+256706909163"
               message="Hello DianiApp 😊 I need to rent a Scooter/ E-Bike/ Car/ Taxi /Boat 🚗"
               className="whatsapp"
             >
@@ -106,7 +106,7 @@ function Home() {
         {/* {scooter}&nbsp; {bikesmall}&nbsp;&nbsp; {taxi}&nbsp; */}
         {/* <h4>HelloRE A {rocket}</h4> */}
         <ReactWhatsapp
-              number="+256 706 909 163"
+              number="+256706909163"
               message={"Hello DianiApp 😊 I need  ParcelDelivery / Hire a Tech Guru / Repair 🛠️"}
               className="whatsapp"
             >
@@ -121,7 +121,7 @@ function Home() {
 
         <h4 style={{marginTop:"30px"}}>24/7 BOOKINGS {bookingicon}</h4>
           <ReactWhatsapp
-            number={"+256 706 909 163"}
+            number={"+256706909163"}
             message={"Hello DianiApp 😊 I need  accomodation 🛌"}
             className="whatsapp"
           >
@@ -132,7 +132,7 @@ function Home() {
           </ReactWhatsapp>
 
           <ReactWhatsapp
-            number={"+256 706 909 163"}
+            number={"+256706909163"}
             message={"Hello DianiApp 😊 I need a dinner reservation 🍽️"}
             className="whatsapp"
           >
@@ -143,7 +143,7 @@ function Home() {
           </ReactWhatsapp>
 
           <ReactWhatsapp
-            number={"+256 706 909 163"}
+            number={"+256706909163"}
             message={"Hello DianiApp 😊 I need Airport Transportation ✈️"}
             className="whatsapp"
           >
@@ -155,7 +155,7 @@ function Home() {
 
           <h4 style={{marginTop:"30px"}}>BANKING & FX {bankfx}</h4>
           <ReactWhatsapp
-            number={"+256 706 909 163"}
+            number={"+256706909163"}
             message={"Hello DianiApp 😊 I need  Cash & currency exchange 💰"}
             className="whatsapp"
           >
@@ -169,7 +169,7 @@ function Home() {
 
           <h4 style={{marginTop:"30px"}}>FAST SHOPPING {shopping}</h4>
           <ReactWhatsapp
-            number={"+256 706 909 163"}
+            number={"+256706909163"}
             message={"Hello DianiApp 😊 I need shopping 🛒"}
             className="whatsapp"
           >
@@ -184,7 +184,7 @@ function Home() {
           </ReactWhatsapp>
 
           <ReactWhatsapp
-            number={"+256 706 909 163"}
+            number={"+256706909163"}
             message={"Hello DianiApp 😊 I need Tech gadgets 📱"}
             className="whatsapp"
           >
@@ -198,7 +198,7 @@ function Home() {
           </ReactWhatsapp>
 
           <ReactWhatsapp
-            number={"+256 706 909 163"}
+            number={"+256706909163"}
             message={"Hello DianiApp 😊 I need to purchase sim cards 📦"}
             className="whatsapp"
           >
@@ -209,7 +209,7 @@ function Home() {
           </ReactWhatsapp>
 
           <ReactWhatsapp
-            number={"+256 706 909 163"}
+            number={"+256706909163"}
             message={"Hello DianiApp 😊 I need Package Delivery(Amazon US) 📦"}
             className="whatsapp"
           >
@@ -220,7 +220,7 @@ function Home() {
           </ReactWhatsapp>
 
           <ReactWhatsapp
-            number={"+256 706 909 163"}
+            number={"+256706909163"}
             message={"Hello DianiApp 😊 I need Package Delivery(Amazon UK/EUR) 📦"}
             className="whatsapp"
           >

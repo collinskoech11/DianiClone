@@ -60,7 +60,7 @@ function WalletConnect() {
               <TabPanel className="transition">
                 <div className="message-wifi">
                 <ReactWhatsapp
-                  number={"+256 706 909 163"}
+                  number={"+256706909163"}
                   message={"Hi DianiApp 😊"}
                   className="nothing"
                 >
