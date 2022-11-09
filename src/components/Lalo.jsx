@@ -150,14 +150,14 @@ const Lalo = (props) => {
               <h1
                 style={{
                   fontSize: "3em",
-                  color: "#72ED2F",
+                  color: "#F35DF6",
                   marginTop: "45px",
                   fontWeight: "bold",
                 }}
               >
                 {bookings_idx}
               </h1>
-              <p style={{ color: "#72ED2F", paddingTop: "20px" }}>
+              <p style={{ color: "#F35DF6", paddingTop: "20px" }}>
                 Bookings
                 <br /> made today
               </p>
@@ -166,7 +166,7 @@ const Lalo = (props) => {
           <div className="child">
             <h3
               style={{
-                color: "#72ED2F",
+                color: "#F35DF6",
                 textAlign: "center",
                 marginLeft: "-50px",
                 fontWeight: "bold",

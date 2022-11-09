@@ -67,13 +67,13 @@ h4 {
   padding: 0;
   border: none;
   background: #272B2C;
-  color:#72ED2F;
+  color:#F35DF6;
 }
 .Tab-item *{
-  color: #72ED2F;
+  color: #fff
 }
 .Tab-item-wellness *{
-  color: #72ED2F;
+  color: #fff;
 }
 .Tab-item {
   width: 100%;
@@ -85,8 +85,8 @@ h4 {
   border-radius: 10px;
   margin-top: 5px;
   transition: 0.8s ease-in-out;
-  border:1px solid #72ED2F;
-  color:#72ED2F;
+  border:1px solid #F35DF6;
+  color:#F35DF6;
   /* padding: 10px 20px 10px 10px; */
   padding:5px;
   font-weight: 400;
@@ -102,8 +102,8 @@ h4 {
   transition: 0.8s ease-in-out;
   padding: 5px;
   font-weight: 400;
-  border:1px solid #72ED2F;
-  color:#72ED2F;
+  border:1px solid #F35DF6;
+  color:#F35DF6;
   font-size:15px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -169,7 +169,7 @@ h4 {
   flex-direction: row;
   background-color: transparent;
   border:none;
-  color:#72ED2F;
+  color:#F35DF6;
 }
 .bg{
   display:flex;
@@ -179,7 +179,7 @@ h4 {
   padding: 0;
   border: none;
   margin-top: 2px;
-  border:1px solid #72ED2F;
+  border:1px solid #F35DF6;
   padding: 15px;
   padding-top:10px;
   padding-bottom:15px;

@@ -1,5 +1,5 @@
 * p {
-  color: #72ED2F;
+  color: #fff;
   font-size: 0.8em;
   font-weight: 1px;
   padding-bottom:10px;
@@ -45,15 +45,15 @@
 .nav-mobile-container a:hover{
   transition: 0.2s;
   padding-top:20px;
-  border-bottom:2px solid #72ED2F;
+  border-bottom:2px solid #F35DF6;
 }
 .nav-mobile-container .active{
   transition: 0.2s;
   padding-top:20px;
-  border-bottom:2px solid #72ED2F;
+  border-bottom:2px solid #F35DF6;
 }
 h5:hover{
-  color:  #72ED2F;
+  color:  #F35DF6;
 }
 @media screen and (min-width: 1000px) {
   .nav-mobile-container {

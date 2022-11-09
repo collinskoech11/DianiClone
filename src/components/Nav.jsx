@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import "./css/Nav.css";
 import toast from "react-hot-toast";
 import {NavLink} from "react-router-dom"
-import {logojinja} from "./icons"
+import {logojinja, logosidejinja} from "./icons"
 
 function Nav() {
   const [supportsPWA, setSupportsPWA] = useState(false);
@@ -40,7 +40,7 @@ function Nav() {
     <nav>
       <div className="nav-main">
         <div className="Logo-container" style={{paddingTop:"15px", paddingBottom:"15px"}}>
-          <NavLink to="/">{logojinja}</NavLink>
+          <NavLink to="/">{logojinja}&nbsp;{logosidejinja}</NavLink>
         </div>
         <div className="Links-container">
           <NavLink to="/">

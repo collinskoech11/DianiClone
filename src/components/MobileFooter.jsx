@@ -25,7 +25,7 @@ const MobileFooter = ({ setItIsOpen }) => {
       <br/><br/><br/>
       <NavLink to="/how-it-works" className="how">
         <div className="wrap-how">
-          <h4 style={{border:"1px solid #72ED2F",borderRadius:"10px", width:"200px", margin:"auto", padding:"10px", color:"#72ED2F"}}>
+          <h4 style={{border:"1px solid #F35DF6",borderRadius:"10px", width:"200px", margin:"auto", padding:"10px", color:"#F35DF6"}}>
             HOW IT WORKS ?
           </h4>
         </div>
