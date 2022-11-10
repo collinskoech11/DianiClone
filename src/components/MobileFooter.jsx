@@ -12,6 +12,8 @@ import {
   lalologo,
 } from "./icons";
 import WalletConnect from "./WalletConnect";
+import {logojinja, logosidejinja} from "./icons"
+
 
 const MobileFooter = ({ setItIsOpen }) => {
   const currentDate = new Date().getFullYear();
@@ -34,7 +36,7 @@ const MobileFooter = ({ setItIsOpen }) => {
 
         <br />
         <br />
-        <img src={Logo} alt="logo" height={"85px"} />
+        {logojinja}&nbsp;{logosidejinja}
         <p
           
           style={{ color: "#fff", marginBottom:"-35px", marginLeft:"15%", marginRight:"15%", lineHeight:"15px"}}
