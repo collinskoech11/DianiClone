@@ -17,7 +17,7 @@ import Rating from "./components/pages/RatingView"
 import "animate.css/animate.min.css";
 import DefaultNav from "./components/DefaultNav";
 // import {AnimationOnScroll} from "react-animation-on-scroll"
-import Popup from "./components/Popup"
+// import Popup from "./components/Popup"
 import {Toaster}  from  "react-hot-toast"
 // import Marquee from "./components/Marquee";
 import Lalo from "./components/Lalo"
@@ -97,7 +97,7 @@ function App() {
     <AddToHomeScreen />
     <Type />
     {/* <WeatherIcon /> */}
-    {isOpen && <Popup setIsOpen={setIsOpen}/>}
+    {/* {isOpen && <Popup setIsOpen={setIsOpen}/>} */}
     <MobileNav />
     <BotIcon/>
     <Routes>

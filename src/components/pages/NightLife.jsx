@@ -56,7 +56,7 @@ function NightLife() {
             message={item.message}
             className={item.className}
           >
-            <div className="Tab-item-wellness"> {item.name}</div>
+            <div className="Tab-item-wellness" style={{color:"#fff"}}> {item.name}</div>
           </ReactWhatsapp>
         ))}
       </div>
