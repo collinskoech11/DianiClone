@@ -53,7 +53,7 @@ function Home() {
     {
       name: "Groceries 24/7",
       number: "+256706909163",
-      message: "Hello JInjaApp 😊 I need groceries 🧅",
+      message: "Hello JinjaApp 😊 I need groceries 🧅",
       className: "whatsapp",
       image: groceries,
       desc: "image desc",
@@ -67,7 +67,7 @@ function Home() {
       <div className="Tabs-container">
       <ReactWhatsapp
             number={"+256706909163"}
-            message={"Hello JInjaApp 😊 I need Food / drinks 📦"}
+            message={"Hello JinjaApp 😊 I need Food / drinks 📦"}
             className="whatsapp"
           >
             <div className="Tab-item">
@@ -92,7 +92,7 @@ function Home() {
        {/* <h4>RENT A {rocket}</h4> */}
        <ReactWhatsapp
               number="+256706909163"
-              message="Hello JInjaApp 😊 I need to rent a Scooter/ E-Bike/ Car/ Taxi /Boat 🚗"
+              message="Hello JinjaApp 😊 I need to rent a Scooter/ E-Bike/ Car/ Taxi /Boat 🚗"
               className="whatsapp"
             >
           <div className="Tab-item" style={{display:"flex", justifyContent:"space-around"}}>
@@ -107,7 +107,7 @@ function Home() {
         {/* <h4>HelloRE A {rocket}</h4> */}
         <ReactWhatsapp
               number="+256706909163"
-              message={"Hello JInjaApp 😊 I need  ParcelDelivery / Hire a Tech Guru / Repair 🛠️"}
+              message={"Hello JinjaApp 😊 I need  ParcelDelivery / Hire a Tech Guru / Repair 🛠️"}
               className="whatsapp"
             >
           <div className="Tab-item" style={{display:"flex", justifyContent:"space-around"}}>
@@ -122,7 +122,7 @@ function Home() {
         <h4 style={{marginTop:"30px"}}>24/7 BOOKINGS {bookingicon}</h4>
           <ReactWhatsapp
             number={"+256706909163"}
-            message={"Hello JInjaApp 😊 I need  accomodation 🛌"}
+            message={"Hello JinjaApp 😊 I need  accomodation 🛌"}
             className="whatsapp"
           >
             <div className="Tab-item">
@@ -133,7 +133,7 @@ function Home() {
 
           <ReactWhatsapp
             number={"+256706909163"}
-            message={"Hello JInjaApp 😊 I need a dinner reservation 🍽️"}
+            message={"Hello JinjaApp 😊 I need a dinner reservation 🍽️"}
             className="whatsapp"
           >
             <div className="Tab-item">
@@ -144,7 +144,7 @@ function Home() {
 
           <ReactWhatsapp
             number={"+256706909163"}
-            message={"Hello JInjaApp 😊 I need Airport Transportation ✈️"}
+            message={"Hello JinjaApp 😊 I need Airport Transportation ✈️"}
             className="whatsapp"
           >
             <div className="Tab-item">
@@ -156,7 +156,7 @@ function Home() {
           <h4 style={{marginTop:"30px"}}>BANKING & FX {bankfx}</h4>
           <ReactWhatsapp
             number={"+256706909163"}
-            message={"Hello JInjaApp 😊 I need  Cash & currency exchange 💰"}
+            message={"Hello JinjaApp 😊 I need  Cash & currency exchange 💰"}
             className="whatsapp"
           >
             <div className="Tab-item">
@@ -170,7 +170,7 @@ function Home() {
           <h4 style={{marginTop:"30px"}}>FAST SHOPPING {shopping}</h4>
           <ReactWhatsapp
             number={"+256706909163"}
-            message={"Hello JInjaApp 😊 I need shopping 🛒"}
+            message={"Hello JinjaApp 😊 I need shopping 🛒"}
             className="whatsapp"
           >
             <div className="Tab-item" style={{display:"flex", justifyContent:"space-around"}}>
@@ -185,7 +185,7 @@ function Home() {
 
           <ReactWhatsapp
             number={"+256706909163"}
-            message={"Hello JInjaApp 😊 I need Tech gadgets 📱"}
+            message={"Hello JinjaApp 😊 I need Tech gadgets 📱"}
             className="whatsapp"
           >
             <div className="Tab-item" style={{display:"flex", justifyContent:"space-around"}}>
@@ -199,7 +199,7 @@ function Home() {
 
           <ReactWhatsapp
             number={"+256706909163"}
-            message={"Hello JInjaApp 😊 I need to purchase sim cards 📦"}
+            message={"Hello JinjaApp 😊 I need to purchase sim cards 📦"}
             className="whatsapp"
           >
             <div className="Tab-item">
@@ -210,7 +210,7 @@ function Home() {
 
           <ReactWhatsapp
             number={"+256706909163"}
-            message={"Hello JInjaApp 😊 I need Package Delivery(Amazon US) 📦"}
+            message={"Hello JinjaApp 😊 I need Package Delivery(Amazon US) 📦"}
             className="whatsapp"
           >
             <div className="Tab-item">
@@ -221,7 +221,7 @@ function Home() {
 
           <ReactWhatsapp
             number={"+256706909163"}
-            message={"Hello JInjaApp 😊 I need Package Delivery(Amazon UK/EUR) 📦"}
+            message={"Hello JinjaApp 😊 I need Package Delivery(Amazon UK/EUR) 📦"}
             className="whatsapp"
           >
             <div className="Tab-item">
