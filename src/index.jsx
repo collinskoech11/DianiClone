@@ -3,10 +3,8 @@ import { BrowserRouter } from 'react-router-dom';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-// import reportWebVitals from './reportWebVitals';
-// import * as serviceWorker from "./registerServiceWorker"
-
-
+import * as serviceWorker from "./registerServiceWorker";
+import ReactPwa from "react-pwa-app";
 import '@rainbow-me/rainbowkit/styles.css';
 import { getDefaultWallets, RainbowKitProvider,darkTheme } from '@rainbow-me/rainbowkit';
 import { chain, configureChains, createClient, WagmiConfig } from 'wagmi';
@@ -49,7 +47,34 @@ root.render(
     <React.StrictMode>
       <WagmiConfig client={wagmiClient}>
           <RainbowKitProvider chains={chains} theme={darkTheme()}>
+          <ReactPwa
+            test //is to install in localhost, not required
+            config={{
+              swUrl: "/service-worker.js", // sw file in public default is service-worker.js
+              onUpdate: (reg) => {
+                // alert("sw cache was updated");
+                console.log(reg);
+              },
+              onSuccess: (reg) => {
+                // alert("sw success installed");
+                console.log(reg);
+              },
+              onError: (reg) => {
+                // alert("sw error to install");
+                console.log(reg);
+              },
+              onPrompt: (e) => {
+                if (e.outcome === "accepted") {
+                  console.log("user click on install and accept");
+                }
+                if (e.outcome === "dismissed") {
+                  console.log("user click on install and refuse");
+                }
+              },
+            }}
+          >
             <App />
+            </ReactPwa>
           </RainbowKitProvider>
       </WagmiConfig>
     </React.StrictMode>

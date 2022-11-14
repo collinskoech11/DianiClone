@@ -4,31 +4,35 @@ import toast from "react-hot-toast";
 import {NavLink} from "react-router-dom"
 import {logojinja, logosidejinja} from "./icons"
 import Name from "./assets/name.svg"
+import {usePwa} from "react-pwa-app"
 
 function Nav() {
-  const [supportsPWA, setSupportsPWA] = useState(false);
-  const [promptInstall, setPromptInstall] = useState(null);
+  const pwa = usePwa();
 
-  useEffect(() => {
-    const handler = (e) => {
-      e.preventDefault();
-      console.log("we are being triggered");
-      setSupportsPWA(true);
-      setPromptInstall(e);
-    };
-    window.addEventListener("beforeinstallprompt", handler);
-    return () => window.removeEventListener("transitionend", handler);
-  }, []);
+  console.log(pwa.registration); // ServiceWorkerRegistration
+  const Pwabtn =()=>{
+    if(pwa.isInstalled === "standalone"){
+      return null
+    } else {
+      return(
+        <>
+        <div className="pwa-con">
+          <div className="pwa-btn">
+            <div>
+              <h5>
+                ⭐⭐⭐⭐⭐
+              </h5>
+            </div>
+            <button onClick={pwa.install}>Install</button>
+          </div>
+        </div>
+        </>
+      )
+    }
 
-  const addToHomeScreen = (e) => {
-    e.preventDefault();
-    if (promptInstall) {
-      promptInstall.prompt();
-    }
-    if (!supportsPWA) {
-      toast.error("PWA not supported");
-    }
-  };
+  }
+
+
 
   const currentTime = new Date().toLocaleTimeString("en-US", { timeZone: "America/Nassau"});
   console.log(currentTime);
@@ -60,13 +64,7 @@ function Nav() {
             <h5>Tours + Activities</h5>
           </NavLink>
         </div>
-        <div className="pwa-con">
-          <div className="pwa-btn">
-            {/* {supportsPWA ? ( */}
-              <div><h5>⭐⭐⭐⭐⭐</h5></div> <button onClick={(e) => addToHomeScreen(e)}>Install</button>
-            {/* ) : null} */}
-          </div>
-        </div>
+        <Pwabtn/>
       </div>
     </nav>
   );
