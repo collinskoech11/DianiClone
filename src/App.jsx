@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Route, Routes, Navigate } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
 import Nav from "./components/Nav";
 import MobileFooter from "./components/MobileFooter";
@@ -16,16 +16,10 @@ import BotIcon from "./components/BotIcon"
 import Rating from "./components/pages/RatingView"
 import "animate.css/animate.min.css";
 import DefaultNav from "./components/DefaultNav";
-// import {AnimationOnScroll} from "react-animation-on-scroll"
-// import Popup from "./components/Popup"
-import {Toaster}  from  "react-hot-toast"
-// import Marquee from "./components/Marquee";
 import Lalo from "./components/Lalo"
 import "@fontsource/montserrat"; // Defaults to weight 400.
 import WalletConnector from "./components/WalletConnector"
 import Preloader from "./components/PreLoad/Preloader";
-// import {ConnectButton} from "@rainbow-me/rainbowkit"
-
 
 function App() {
   const [itIsOpen, setItIsOpen]= useState(false)
@@ -74,22 +68,6 @@ function App() {
       <Preloader/>
     ):(
       <>
-      <Toaster
-      position="top-center"
-      reverseOrder={false}
-      gutter={8}
-      containerClassName=""
-      containerStyle={{}}
-      toastOptions={{
-        // Define default options
-        className: "",
-        duration: 5000,
-        style: {
-          background: "#363636",
-          color: "#fff",
-        },
-      }}
-    />
     <WalletConnector/>
     <DefaultNav/>
     <Nav />
