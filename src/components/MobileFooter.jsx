@@ -3,6 +3,7 @@ import "./css/footer.css";
 import Nai from "./assets/nAIROBI-ART.png";
 import Logo from "./assets/Goombay.png";
 import {NavLink} from "react-router-dom"
+import Name from "./assets/name.svg"
 import {
   amazon,
   uber,
@@ -36,7 +37,7 @@ const MobileFooter = ({ setItIsOpen }) => {
 
         <br />
         <br />
-        {logojinja}&nbsp;{logosidejinja}
+        {logojinja}&nbsp;<img src={Name} style={{height:'20px'}}/>
         <p
           
           style={{ color: "#fff", marginBottom:"-35px", marginLeft:"15%", marginRight:"15%", lineHeight:"15px"}}

@@ -3,6 +3,7 @@ import "./css/Nav.css";
 import toast from "react-hot-toast";
 import {NavLink} from "react-router-dom"
 import {logojinja, logosidejinja} from "./icons"
+import Name from "./assets/name.svg"
 
 function Nav() {
   const [supportsPWA, setSupportsPWA] = useState(false);
@@ -40,7 +41,7 @@ function Nav() {
     <nav>
       <div className="nav-main">
         <div className="Logo-container" style={{paddingTop:"15px", paddingBottom:"15px"}}>
-          <NavLink to="/">{logojinja}&nbsp;{logosidejinja}</NavLink>
+          <NavLink to="/">{logojinja}&nbsp;<img src={Name} style={{height:'20px', marginLeft:"-30px"}}/></NavLink>
         </div>
         <div className="Links-container">
           <NavLink to="/">
@@ -62,7 +63,7 @@ function Nav() {
         <div className="pwa-con">
           <div className="pwa-btn">
             {/* {supportsPWA ? ( */}
-              <div><h5>Get the Jinja App<br/>⭐⭐⭐⭐⭐</h5></div> <button onClick={(e) => addToHomeScreen(e)}>Install</button>
+              <div><h5>⭐⭐⭐⭐⭐</h5></div> <button onClick={(e) => addToHomeScreen(e)}>Install</button>
             {/* ) : null} */}
           </div>
         </div>
