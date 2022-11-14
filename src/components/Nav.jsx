@@ -23,7 +23,7 @@ function Nav() {
                 ⭐⭐⭐⭐⭐
               </h5>
             </div>
-            <button onClick={pwa.install}>Install . </button>
+            <button onClick={pwa.install}>Install</button>
           </div>
         </div>
         </>
