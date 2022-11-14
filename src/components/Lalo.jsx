@@ -26,7 +26,7 @@ import Mini from "./assets/minidianipp.png"
 const Lalo = (props) => {
   const d = new Date();
   let hour = d.getHours();
-  const bookings_idx = hour + hour * 5;
+  const bookings_idx = hour + hour * 4;
   console.log(props);
   // function clicked(){
   //     setItIsOpen(false)
