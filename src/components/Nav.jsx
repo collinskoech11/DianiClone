@@ -45,7 +45,7 @@ function Nav() {
     <nav>
       <div className="nav-main">
         <div className="Logo-container" style={{paddingTop:"15px", paddingBottom:"15px"}}>
-          <NavLink to="/">{logojinja}&nbsp;<img src={Name} style={{height:'20px', marginLeft:"-30px"}}/></NavLink>
+          <NavLink to="/">{logojinja}<img src={Name} style={{height:'20px'}}/></NavLink>
         </div>
         <div className="Links-container">
           <NavLink to="/">

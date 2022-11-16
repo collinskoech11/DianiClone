@@ -56,7 +56,8 @@ a {
     border-radius: 10px;
   }
   .Logo-container img {
-    width: 35vw;
+    width: auto;
+    margin-left:10px;
   }
   .nav-main {
     padding-left: 0;

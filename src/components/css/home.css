@@ -48,16 +48,16 @@ h4 {
 }
 
 .Tab-item:hover {
-  background: #021923;
-  transition: 0.2s ease-in-out;
+  background:  rgb(243, 93, 246, 0.1);
+  transition: 0.4s ease-in-out;
   color: #020825;
   cursor: pointer;
   font-weight: 600;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .Tab-item-wellness:hover {
-  background:#021923;
-  transition: 0.2s ease-in-out;
+  background:  rgb(243, 93, 246, 0.1);
+  transition: 0.4s ease-in-out;
   color: #fff;
   cursor: pointer;
   font-weight: 600;
@@ -87,7 +87,7 @@ h4 {
   border-radius: 10px;
   margin-top: 5px;
   transition: 0.8s ease-in-out;
-  border:1px solid #F35DF6;
+  background-color: rgb(243, 93, 246, 0.2);
   color:#F35DF6;
   /* padding: 10px 20px 10px 10px; */
   padding:5px;
@@ -97,14 +97,13 @@ h4 {
 }
 .Tab-item-wellness {
   width: 100%;
-  background: #272B2C;
   text-align: center;
   border-radius: 10px;
   margin-top: 5px;
   transition: 0.8s ease-in-out;
   padding: 5px;
   font-weight: 400;
-  border:1px solid #F35DF6;
+  background-color: rgb(243, 93, 246, 0.2);
   color:#F35DF6;
   font-size:15px;
   padding-top: 20px;
