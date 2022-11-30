@@ -4,7 +4,6 @@ import ReactWhatsapp from "react-whatsapp";
 import {
   skydiving,
   skiing,
-
 } from "./images";
 
 function VIP() {
