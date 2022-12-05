@@ -6,8 +6,6 @@
 }
 .foot-container {
   display: block;
-  flex-direction: row;
-  justify-content: space-around;
   height: auto;
   background: #272B2C;;
   width: 100vw;
@@ -16,6 +14,7 @@
 }
 .foot-container * {
   background: #272B2C;
+  text-align: center;
 }
 .foot-container p{
   padding-bottom:20px;

@@ -40,7 +40,7 @@ const MobileFooter = ({ setItIsOpen }) => {
         {logojinja}&nbsp;<img src={Name} style={{height:'20px'}}/>
         <p
           
-          style={{ color: "#fff", marginBottom:"-35px", marginLeft:"15%", marginRight:"15%", lineHeight:"15px"}}
+          style={{ color: "#fff", marginBottom:"-35px", lineHeight:"15px"}}
         >
           {" "}
           JinjaApp &trade; is a partner-based dApp Within &nbsp;
