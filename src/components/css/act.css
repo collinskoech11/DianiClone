@@ -175,10 +175,14 @@ details>summary::-webkit-details-marker {
   
   details>summary::before {
     content: '+ ';
+    font-weight: bold;
+    font-size: 18px;
   }
   
   details[open]>summary::before {
     content: '- ';
+    font-weight: bold;
+    font-size: 18px;
   }
   .flexer{
     width: 70%;
@@ -187,6 +191,11 @@ details>summary::-webkit-details-marker {
     margin-bottom:5px;
     margin:auto;
     height:40px;
+  }
+  @media screen and (max-width:1000px){
+    .flexer{
+        width:100%;
+    }
   }
   .flexer b, p{
     text-align: left;

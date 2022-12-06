@@ -768,8 +768,8 @@ function Activities() {
                     <span style={{ fontSize: "0.5em" }}>{item.duration}</span>
                   </h5>
                   <p style={{ padding: "20px" }}> {item.description}</p>
-                  <details>
-                    <summary style={{borderBottom:"1px solid lightgray", marginBottom:"10px", paddingBottom:"10px", paddingTop:"10px"}}>
+                  <details open>
+                    <summary style={{borderBottom:"1px solid lightgray", paddingBottom:"10px"}}>
                       Full Prices
                     </summary>
                     <div className="flexer"><b>Description</b><b>Price</b></div>
